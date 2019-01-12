@@ -1,0 +1,5188 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>AOP · 最全 Android 进阶路线知识图谱</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="FeelsChaotic">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">一、系统源码学习</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" >
+            
+                <span>
+            
+                    
+                        <b>1.1.</b>
+                    
+                    组件
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" >
+            
+                <span>
+            
+                    
+                        <b>1.1.1.</b>
+                    
+                    四大组件解析
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.1" >
+            
+                <span>
+            
+                    
+                        <b>1.1.1.1.</b>
+                    
+                    Activity
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.1.1" >
+            
+                <span>
+            
+                    
+                        <b>1.1.1.1.1.</b>
+                    
+                    Activity的启动过程
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.1.2" >
+            
+                <span>
+            
+                    
+                        <b>1.1.1.1.2.</b>
+                    
+                    启动流程和启动模式
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.1.3" >
+            
+                <span>
+            
+                    
+                        <b>1.1.1.1.3.</b>
+                    
+                    生命周期
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.1.4" >
+            
+                <span>
+            
+                    
+                        <b>1.1.1.1.4.</b>
+                    
+                    与Window/View的关系
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.1.5" >
+            
+                <span>
+            
+                    
+                        <b>1.1.1.1.5.</b>
+                    
+                    与Fragment的关系
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.2" >
+            
+                <span>
+            
+                    
+                        <b>1.1.1.2.</b>
+                    
+                    Service
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.2.1" >
+            
+                <span>
+            
+                    
+                        <b>1.1.1.2.1.</b>
+                    
+                    IPC（AIDL）、IntentService
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.3" >
+            
+                <span>
+            
+                    
+                        <b>1.1.1.3.</b>
+                    
+                    ContentProvider全方位解析
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.4" >
+            
+                <span>
+            
+                    
+                        <b>1.1.1.4.</b>
+                    
+                    BroadcastReceiver全方位解析
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" >
+            
+                <span>
+            
+                    
+                        <b>1.1.2.</b>
+                    
+                    Fragment
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.1" >
+            
+                <span>
+            
+                    
+                        <b>1.1.2.1.</b>
+                    
+                    懒加载
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.2" >
+            
+                <span>
+            
+                    
+                        <b>1.1.2.2.</b>
+                    
+                    与Activity通信
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" >
+            
+                <span>
+            
+                    
+                        <b>1.1.3.</b>
+                    
+                    Context详解
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" >
+            
+                <span>
+            
+                    
+                        <b>1.1.4.</b>
+                    
+                    Window
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.4.1" >
+            
+                <span>
+            
+                    
+                        <b>1.1.4.1.</b>
+                    
+                    Toast
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.2" >
+            
+                <span>
+            
+                    
+                        <b>1.1.4.2.</b>
+                    
+                    Dialog
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.3" >
+            
+                <span>
+            
+                    
+                        <b>1.1.4.3.</b>
+                    
+                    PopupWindow
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4.4" >
+            
+                <span>
+            
+                    
+                        <b>1.1.4.4.</b>
+                    
+                    PopupWindow和Dialog区别
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" >
+            
+                <span>
+            
+                    
+                        <b>1.1.5.</b>
+                    
+                    WebView
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.5.1" >
+            
+                <span>
+            
+                    
+                        <b>1.1.5.1.</b>
+                    
+                    JSBridge
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5.2" >
+            
+                <span>
+            
+                    
+                        <b>1.1.5.2.</b>
+                    
+                    Deeplink
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5.3" >
+            
+                <span>
+            
+                    
+                        <b>1.1.5.3.</b>
+                    
+                    首屏加速
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5.4" >
+            
+                <span>
+            
+                    
+                        <b>1.1.5.4.</b>
+                    
+                    离线包
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.6" >
+            
+                <span>
+            
+                    
+                        <b>1.1.6.</b>
+                    
+                    RecyclerView
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.6.1" >
+            
+                <span>
+            
+                    
+                        <b>1.1.6.1.</b>
+                    
+                    四级缓存+局部刷新
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.6.2" >
+            
+                <span>
+            
+                    
+                        <b>1.1.6.2.</b>
+                    
+                    与ListView比较
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.7" >
+            
+                <span>
+            
+                    
+                        <b>1.1.7.</b>
+                    
+                    LinearLayout 和 RelativeLayout 相同层级下效率比较
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                        <b>1.2.</b>
+                    
+                    系统服务
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" >
+            
+                <span>
+            
+                    
+                        <b>1.2.1.</b>
+                    
+                    ActivityManagerService
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" >
+            
+                <span>
+            
+                    
+                        <b>1.2.2.</b>
+                    
+                    Window和WindowManager
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" >
+            
+                <span>
+            
+                    
+                        <b>1.2.3.</b>
+                    
+                    WindowManagerService
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" >
+            
+                <span>
+            
+                    
+                        <b>1.2.4.</b>
+                    
+                    ServiceManager
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                        <b>1.3.</b>
+                    
+                    流程
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" >
+            
+                <span>
+            
+                    
+                        <b>1.3.1.</b>
+                    
+                    Android系统启动过程
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1.1" >
+            
+                <span>
+            
+                    
+                        <b>1.3.1.1.</b>
+                    
+                    system_server启动过程
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" >
+            
+                <span>
+            
+                    
+                        <b>1.3.2.</b>
+                    
+                    Android Apk安装过程
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" >
+            
+                <span>
+            
+                    
+                        <b>1.3.3.</b>
+                    
+                    Android应用进程启动
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                        <b>1.4.</b>
+                    
+                    通讯
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" >
+            
+                <span>
+            
+                    
+                        <b>1.4.1.</b>
+                    
+                    WIFI
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" >
+            
+                <span>
+            
+                    
+                        <b>1.4.2.</b>
+                    
+                    NFC
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" >
+            
+                <span>
+            
+                    
+                        <b>1.4.3.</b>
+                    
+                    蓝牙
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">二、架构能力</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <span>
+            
+                    
+                        <b>2.1.</b>
+                    
+                    设计模式
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" >
+            
+                <span>
+            
+                    
+                        <b>2.1.1.</b>
+                    
+                    Android源码中的设计模式应用
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" >
+            
+                <span>
+            
+                    
+                        <b>2.1.2.</b>
+                    
+                    OOD原则
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" >
+            
+                <span>
+            
+                    
+                        <b>2.2.</b>
+                    
+                    架构模式
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" >
+            
+                <span>
+            
+                    
+                        <b>2.2.1.</b>
+                    
+                    MVP
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" >
+            
+                <span>
+            
+                    
+                        <b>2.2.2.</b>
+                    
+                    MVVM
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.2.1" >
+            
+                <span>
+            
+                    
+                        <b>2.2.2.1.</b>
+                    
+                    DataBinding
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" >
+            
+                <span>
+            
+                    
+                        <b>2.2.3.</b>
+                    
+                    Flux
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" >
+            
+                <span>
+            
+                    
+                        <b>2.2.4.</b>
+                    
+                    Clean Architecture
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" >
+            
+                <span>
+            
+                    
+                        <b>2.2.5.</b>
+                    
+                    Android Architecture Components
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" >
+            
+                <span>
+            
+                    
+                        <b>2.2.6.</b>
+                    
+                    Android Jetpack架构
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" >
+            
+                <span>
+            
+                    
+                        <b>2.3.</b>
+                    
+                    App框架
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" >
+            
+                <span>
+            
+                    
+                        <b>2.3.1.</b>
+                    
+                    分包
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" >
+            
+                <span>
+            
+                    
+                        <b>2.3.2.</b>
+                    
+                    分层
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">三、开源库</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" >
+            
+                <span>
+            
+                    
+                        <b>3.1.</b>
+                    
+                    ORM框架
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" >
+            
+                <span>
+            
+                    
+                        <b>3.1.1.</b>
+                    
+                    GreenDao
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" >
+            
+                <span>
+            
+                    
+                        <b>3.1.2.</b>
+                    
+                    Room
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" >
+            
+                <span>
+            
+                    
+                        <b>3.2.</b>
+                    
+                    事件总线
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.2.1" >
+            
+                <span>
+            
+                    
+                        <b>3.2.1.</b>
+                    
+                    EventBus
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.2.1.1" >
+            
+                <span>
+            
+                    
+                        <b>3.2.1.1.</b>
+                    
+                    4种模式、粘性事件
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.1.2" >
+            
+                <span>
+            
+                    
+                        <b>3.2.1.2.</b>
+                    
+                    观察者模式解耦
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" >
+            
+                <span>
+            
+                    
+                        <b>3.3.</b>
+                    
+                    网络
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.1" >
+            
+                <span>
+            
+                    
+                        <b>3.3.1.</b>
+                    
+                    Retrofit
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.1.1" >
+            
+                <span>
+            
+                    
+                        <b>3.3.1.1.</b>
+                    
+                    动态代理
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.1.2" >
+            
+                <span>
+            
+                    
+                        <b>3.3.1.2.</b>
+                    
+                    运行时注解
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.1.3" >
+            
+                <span>
+            
+                    
+                        <b>3.3.1.3.</b>
+                    
+                    GsonConverter
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.1.4" >
+            
+                <span>
+            
+                    
+                        <b>3.3.1.4.</b>
+                    
+                    RxJava2CallAdapter
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2" >
+            
+                <span>
+            
+                    
+                        <b>3.3.2.</b>
+                    
+                    OKHttp
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.2.1" >
+            
+                <span>
+            
+                    
+                        <b>3.3.2.1.</b>
+                    
+                    拦截器（责任链模式）
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2.2" >
+            
+                <span>
+            
+                    
+                        <b>3.3.2.2.</b>
+                    
+                    超时重传&重定向
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2.3" >
+            
+                <span>
+            
+                    
+                        <b>3.3.2.3.</b>
+                    
+                    Http缓存
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2.4" >
+            
+                <span>
+            
+                    
+                        <b>3.3.2.4.</b>
+                    
+                    Socket连接池复用
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.3" >
+            
+                <span>
+            
+                    
+                        <b>3.3.3.</b>
+                    
+                    Volley
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" >
+            
+                <span>
+            
+                    
+                        <b>3.4.</b>
+                    
+                    图片
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.4.1" >
+            
+                <span>
+            
+                    
+                        <b>3.4.1.</b>
+                    
+                    Glide
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.4.1.1" >
+            
+                <span>
+            
+                    
+                        <b>3.4.1.1.</b>
+                    
+                    生命周期控制
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.1.2" >
+            
+                <span>
+            
+                    
+                        <b>3.4.1.2.</b>
+                    
+                    二级缓存
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.1.3" >
+            
+                <span>
+            
+                    
+                        <b>3.4.1.3.</b>
+                    
+                    BitmapPool复用
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.2" >
+            
+                <span>
+            
+                    
+                        <b>3.4.2.</b>
+                    
+                    Fresco
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.3" >
+            
+                <span>
+            
+                    
+                        <b>3.4.3.</b>
+                    
+                    Picasso
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" >
+            
+                <span>
+            
+                    
+                        <b>3.5.</b>
+                    
+                    依赖注入
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.5.1" >
+            
+                <span>
+            
+                    
+                        <b>3.5.1.</b>
+                    
+                    butterknife
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.5.1.1" >
+            
+                <span>
+            
+                    
+                        <b>3.5.1.1.</b>
+                    
+                    apt
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5.2" >
+            
+                <span>
+            
+                    
+                        <b>3.5.2.</b>
+                    
+                    Dagger2
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" >
+            
+                <span>
+            
+                    
+                        <b>3.6.</b>
+                    
+                    序列化
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.6.1" >
+            
+                <span>
+            
+                    
+                        <b>3.6.1.</b>
+                    
+                    Gson
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6.2" >
+            
+                <span>
+            
+                    
+                        <b>3.6.2.</b>
+                    
+                    FastJson
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" >
+            
+                <span>
+            
+                    
+                        <b>3.7.</b>
+                    
+                    ARouter
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" >
+            
+                <span>
+            
+                    
+                        <b>3.8.</b>
+                    
+                    响应式编程
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.8.1" >
+            
+                <span>
+            
+                    
+                        <b>3.8.1.</b>
+                    
+                    RxJava
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.8.1.1" >
+            
+                <span>
+            
+                    
+                        <b>3.8.1.1.</b>
+                    
+                    常用操作符
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8.1.2" >
+            
+                <span>
+            
+                    
+                        <b>3.8.1.2.</b>
+                    
+                    线程调度
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8.1.3" >
+            
+                <span>
+            
+                    
+                        <b>3.8.1.3.</b>
+                    
+                    异常处理
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8.1.4" >
+            
+                <span>
+            
+                    
+                        <b>3.8.1.4.</b>
+                    
+                    Flowable背压
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8.2" >
+            
+                <span>
+            
+                    
+                        <b>3.8.2.</b>
+                    
+                    RxBinding
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8.3" >
+            
+                <span>
+            
+                    
+                        <b>3.8.3.</b>
+                    
+                    RxAndroid
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">四、测试</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" >
+            
+                <span>
+            
+                    
+                        <b>4.1.</b>
+                    
+                    单元测试
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" >
+            
+                <span>
+            
+                    
+                        <b>4.1.1.</b>
+                    
+                    robolectric
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" >
+            
+                <span>
+            
+                    
+                        <b>4.2.</b>
+                    
+                    自动化测试
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.2.1" >
+            
+                <span>
+            
+                    
+                        <b>4.2.1.</b>
+                    
+                    UI自动化
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.2" >
+            
+                <span>
+            
+                    
+                        <b>4.2.2.</b>
+                    
+                    Money
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">五、常见机制</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" >
+            
+                <span>
+            
+                    
+                        <b>5.1.</b>
+                    
+                    线程通信
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" >
+            
+                <span>
+            
+                    
+                        <b>5.1.1.</b>
+                    
+                    Handler原理
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" >
+            
+                <span>
+            
+                    
+                        <b>5.1.2.</b>
+                    
+                    AsyncTask
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" >
+            
+                <span>
+            
+                    
+                        <b>5.1.3.</b>
+                    
+                    HandlerThread
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4" >
+            
+                <span>
+            
+                    
+                        <b>5.1.4.</b>
+                    
+                    IntentService
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5" >
+            
+                <span>
+            
+                    
+                        <b>5.1.5.</b>
+                    
+                    RxJava
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" >
+            
+                <span>
+            
+                    
+                        <b>5.2.</b>
+                    
+                    进程
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1" >
+            
+                <span>
+            
+                    
+                        <b>5.2.1.</b>
+                    
+                    IPC通信Binder
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1.1" >
+            
+                <span>
+            
+                    
+                        <b>5.2.1.1.</b>
+                    
+                    AIDL
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.1.2" >
+            
+                <span>
+            
+                    
+                        <b>5.2.1.2.</b>
+                    
+                    序列化
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.1.3" >
+            
+                <span>
+            
+                    
+                        <b>5.2.1.3.</b>
+                    
+                    匿名共享内存
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2" >
+            
+                <span>
+            
+                    
+                        <b>5.2.2.</b>
+                    
+                    lowmemorykiller
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.3" >
+            
+                <span>
+            
+                    
+                        <b>5.2.3.</b>
+                    
+                    进程的优先级
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" >
+            
+                <span>
+            
+                    
+                        <b>5.3.</b>
+                    
+                    View体系
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.3.1" >
+            
+                <span>
+            
+                    
+                        <b>5.3.1.</b>
+                    
+                    自定义控件
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.3.1.1" >
+            
+                <span>
+            
+                    
+                        <b>5.3.1.1.</b>
+                    
+                    事件分发机制
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.1.2" >
+            
+                <span>
+            
+                    
+                        <b>5.3.1.2.</b>
+                    
+                    自定义动画
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.1.3" >
+            
+                <span>
+            
+                    
+                        <b>5.3.1.3.</b>
+                    
+                    Lottie动画解析库
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3.1.4" >
+            
+                <span>
+            
+                    
+                        <b>5.3.1.4.</b>
+                    
+                    绘制
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.4" >
+            
+                <span>
+            
+                    
+                        <b>5.4.</b>
+                    
+                    Android消息机制
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.5" >
+            
+                <span>
+            
+                    
+                        <b>5.5.</b>
+                    
+                    本地存储
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.5.1" >
+            
+                <span>
+            
+                    
+                        <b>5.5.1.</b>
+                    
+                    Sqlite、SharedPreferences、文件
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.6" >
+            
+                <span>
+            
+                    
+                        <b>5.6.</b>
+                    
+                    资源管理系统、资源加载机制
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">六、基础能力</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" >
+            
+                <span>
+            
+                    
+                        <b>6.1.</b>
+                    
+                    Java高级
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" >
+            
+                <span>
+            
+                    
+                        <b>6.1.1.</b>
+                    
+                    反射
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2" >
+            
+                <span>
+            
+                    
+                        <b>6.1.2.</b>
+                    
+                    动态代理
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3" >
+            
+                <span>
+            
+                    
+                        <b>6.1.3.</b>
+                    
+                    NIO
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.4" >
+            
+                <span>
+            
+                    
+                        <b>6.1.4.</b>
+                    
+                    垃圾回收和GC
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.5" >
+            
+                <span>
+            
+                    
+                        <b>6.1.5.</b>
+                    
+                    多线程（并发锁）
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.6" >
+            
+                <span>
+            
+                    
+                        <b>6.1.6.</b>
+                    
+                    网络协议
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.7" >
+            
+                <span>
+            
+                    
+                        <b>6.1.7.</b>
+                    
+                    集合框架
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" >
+            
+                <span>
+            
+                    
+                        <b>6.2.</b>
+                    
+                    数据结构和算法
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.2.1" >
+            
+                <span>
+            
+                    
+                        <b>6.2.1.</b>
+                    
+                    线性表
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2.2" >
+            
+                <span>
+            
+                    
+                        <b>6.2.2.</b>
+                    
+                    栈和队
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2.3" >
+            
+                <span>
+            
+                    
+                        <b>6.2.3.</b>
+                    
+                    树
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.2.3.1" >
+            
+                <span>
+            
+                    
+                        <b>6.2.3.1.</b>
+                    
+                    树的基础
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2.3.2" >
+            
+                <span>
+            
+                    
+                        <b>6.2.3.2.</b>
+                    
+                    其他常见的树
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2.3.3" >
+            
+                <span>
+            
+                    
+                        <b>6.2.3.3.</b>
+                    
+                    并查集
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2.3.4" >
+            
+                <span>
+            
+                    
+                        <b>6.2.3.4.</b>
+                    
+                    B-树，B+树，B*树
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2.4" >
+            
+                <span>
+            
+                    
+                        <b>6.2.4.</b>
+                    
+                    图
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.2.4.1" >
+            
+                <span>
+            
+                    
+                        <b>6.2.4.1.</b>
+                    
+                    图的基础
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2.4.2" >
+            
+                <span>
+            
+                    
+                        <b>6.2.4.2.</b>
+                    
+                    拓扑排序
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2.4.3" >
+            
+                <span>
+            
+                    
+                        <b>6.2.4.3.</b>
+                    
+                    Kruskal算法、Prim算法、Dijkstra算法、Floyd算法
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2.5" >
+            
+                <span>
+            
+                    
+                        <b>6.2.5.</b>
+                    
+                    散列查找
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2.6" >
+            
+                <span>
+            
+                    
+                        <b>6.2.6.</b>
+                    
+                    排序
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2.7" >
+            
+                <span>
+            
+                    
+                        <b>6.2.7.</b>
+                    
+                    海量数据处理
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" >
+            
+                <span>
+            
+                    
+                        <b>6.3.</b>
+                    
+                    操作系统
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" >
+            
+                <span>
+            
+                    
+                        <b>6.4.</b>
+                    
+                    计算机网络
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.4.1" >
+            
+                <span>
+            
+                    
+                        <b>6.4.1.</b>
+                    
+                    DNS HTTP/1.x HTTPs HTTP/2 TCP 等网络协议知识
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4.2" >
+            
+                <span>
+            
+                    
+                        <b>6.4.2.</b>
+                    
+                    SSL
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" >
+            
+                <span>
+            
+                    
+                        <b>6.5.</b>
+                    
+                    虚拟机
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.5.1" >
+            
+                <span>
+            
+                    
+                        <b>6.5.1.</b>
+                    
+                    JVM
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.2" >
+            
+                <span>
+            
+                    
+                        <b>6.5.2.</b>
+                    
+                    ART & Dalvik
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.5.2.1" >
+            
+                <span>
+            
+                    
+                        <b>6.5.2.1.</b>
+                    
+                    AOT compilation
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.2.2" >
+            
+                <span>
+            
+                    
+                        <b>6.5.2.2.</b>
+                    
+                    GC
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5.2.3" >
+            
+                <span>
+            
+                    
+                        <b>6.5.2.3.</b>
+                    
+                    Bytecode & Dex
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">七、进阶</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" >
+            
+                <span>
+            
+                    
+                        <b>7.1.</b>
+                    
+                    资源管理
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.1" >
+            
+                <span>
+            
+                    
+                        <b>7.1.1.</b>
+                    
+                    主题样式
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.2" >
+            
+                <span>
+            
+                    
+                        <b>7.1.2.</b>
+                    
+                    多分辨率适配
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3" >
+            
+                <span>
+            
+                    
+                        <b>7.1.3.</b>
+                    
+                    AssertManager
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.4" >
+            
+                <span>
+            
+                    
+                        <b>7.1.4.</b>
+                    
+                    Resource
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" >
+            
+                <span>
+            
+                    
+                        <b>7.2.</b>
+                    
+                    打包
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.2.1" >
+            
+                <span>
+            
+                    
+                        <b>7.2.1.</b>
+                    
+                    Gradle
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.2" >
+            
+                <span>
+            
+                    
+                        <b>7.2.2.</b>
+                    
+                    编译
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.3" >
+            
+                <span>
+            
+                    
+                        <b>7.2.3.</b>
+                    
+                    混淆
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2.4" >
+            
+                <span>
+            
+                    
+                        <b>7.2.4.</b>
+                    
+                    签名
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="7.3" data-path="AOP.html">
+            
+                <a href="AOP.html">
+            
+                    
+                        <b>7.3.</b>
+                    
+                    AOP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" >
+            
+                <span>
+            
+                    
+                        <b>7.4.</b>
+                    
+                    插件化技术
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.4.1" >
+            
+                <span>
+            
+                    
+                        <b>7.4.1.</b>
+                    
+                    class和dex学习
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4.2" >
+            
+                <span>
+            
+                    
+                        <b>7.4.2.</b>
+                    
+                    ClassLoader原理
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.4.2.1" >
+            
+                <span>
+            
+                    
+                        <b>7.4.2.1.</b>
+                    
+                    如何hook Activity启动流程
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4.2.2" >
+            
+                <span>
+            
+                    
+                        <b>7.4.2.2.</b>
+                    
+                    双亲委派
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4.3" >
+            
+                <span>
+            
+                    
+                        <b>7.4.3.</b>
+                    
+                    插件化原理
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4.4" >
+            
+                <span>
+            
+                    
+                        <b>7.4.4.</b>
+                    
+                    插件化框架学习
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.5" >
+            
+                <span>
+            
+                    
+                        <b>7.5.</b>
+                    
+                    组件化
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.5.1" >
+            
+                <span>
+            
+                    
+                        <b>7.5.1.</b>
+                    
+                    页面路由
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.6" >
+            
+                <span>
+            
+                    
+                        <b>7.6.</b>
+                    
+                    热修复
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.6.1" >
+            
+                <span>
+            
+                    
+                        <b>7.6.1.</b>
+                    
+                    tinker
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.6.2" >
+            
+                <span>
+            
+                    
+                        <b>7.6.2.</b>
+                    
+                    插桩
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.6.3" >
+            
+                <span>
+            
+                    
+                        <b>7.6.3.</b>
+                    
+                    ASM字节码
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.7" >
+            
+                <span>
+            
+                    
+                        <b>7.7.</b>
+                    
+                    消息推送&保活
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.7.1" >
+            
+                <span>
+            
+                    
+                        <b>7.7.1.</b>
+                    
+                    长连接保活
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.7.1.1" >
+            
+                <span>
+            
+                    
+                        <b>7.7.1.1.</b>
+                    
+                    心跳包
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.7.2" >
+            
+                <span>
+            
+                    
+                        <b>7.7.2.</b>
+                    
+                    进程保活
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.8" >
+            
+                <span>
+            
+                    
+                        <b>7.8.</b>
+                    
+                    NDK
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.8.1" >
+            
+                <span>
+            
+                    
+                        <b>7.8.1.</b>
+                    
+                    调用JNI方法
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.8.2" >
+            
+                <span>
+            
+                    
+                        <b>7.8.2.</b>
+                    
+                    回调JAVA方法
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.8.3" >
+            
+                <span>
+            
+                    
+                        <b>7.8.3.</b>
+                    
+                    CMAKE语法
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.8.4" >
+            
+                <span>
+            
+                    
+                        <b>7.8.4.</b>
+                    
+                    NDK MakeFile语法
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.9" >
+            
+                <span>
+            
+                    
+                        <b>7.9.</b>
+                    
+                    安全
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.9.1" >
+            
+                <span>
+            
+                    
+                        <b>7.9.1.</b>
+                    
+                    root原理
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.9.2" >
+            
+                <span>
+            
+                    
+                        <b>7.9.2.</b>
+                    
+                    二进制漏洞挖掘
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.9.3" >
+            
+                <span>
+            
+                    
+                        <b>7.9.3.</b>
+                    
+                    经典的漏洞研究如cve20143153 cve20153636之类
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.9.4" >
+            
+                <span>
+            
+                    
+                        <b>7.9.4.</b>
+                    
+                    poc和exp
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.9.5" >
+            
+                <span>
+            
+                    
+                        <b>7.9.5.</b>
+                    
+                    逆向
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.9.5.1" >
+            
+                <span>
+            
+                    
+                        <b>7.9.5.1.</b>
+                    
+                    arm汇编
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.9.5.2" >
+            
+                <span>
+            
+                    
+                        <b>7.9.5.2.</b>
+                    
+                    smali字节码
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.9.5.3" >
+            
+                <span>
+            
+                    
+                        <b>7.9.5.3.</b>
+                    
+                    dex和ELF结构
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.9.5.4" >
+            
+                <span>
+            
+                    
+                        <b>7.9.5.4.</b>
+                    
+                    安卓和Linux调试体系和反调式体系
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.9.5.5" >
+            
+                <span>
+            
+                    
+                        <b>7.9.5.5.</b>
+                    
+                    加固与反加固
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.9.5.6" >
+            
+                <span>
+            
+                    
+                        <b>7.9.5.6.</b>
+                    
+                    Hook
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.10" >
+            
+                <span>
+            
+                    
+                        <b>7.10.</b>
+                    
+                    多媒体
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.10.1" >
+            
+                <span>
+            
+                    
+                        <b>7.10.1.</b>
+                    
+                    图片
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.10.1.1" >
+            
+                <span>
+            
+                    
+                        <b>7.10.1.1.</b>
+                    
+                    图片处理
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.10.1.2" >
+            
+                <span>
+            
+                    
+                        <b>7.10.1.2.</b>
+                    
+                    动画
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.10.1.3" >
+            
+                <span>
+            
+                    
+                        <b>7.10.1.3.</b>
+                    
+                    图片加载
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.10.2" >
+            
+                <span>
+            
+                    
+                        <b>7.10.2.</b>
+                    
+                    音视频
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.10.2.1" >
+            
+                <span>
+            
+                    
+                        <b>7.10.2.1.</b>
+                    
+                    音频编解码
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.10.2.2" >
+            
+                <span>
+            
+                    
+                        <b>7.10.2.2.</b>
+                    
+                    AudioTrack播放
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.10.2.3" >
+            
+                <span>
+            
+                    
+                        <b>7.10.2.3.</b>
+                    
+                    视频解码
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.10.2.4" >
+            
+                <span>
+            
+                    
+                        <b>7.10.2.4.</b>
+                    
+                    OpenGL绘制
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.10.2.5" >
+            
+                <span>
+            
+                    
+                        <b>7.10.2.5.</b>
+                    
+                    视频编辑转码
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.10.2.6" >
+            
+                <span>
+            
+                    
+                        <b>7.10.2.6.</b>
+                    
+                    视频滤镜
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11" >
+            
+                <span>
+            
+                    
+                        <b>7.11.</b>
+                    
+                    性能优化
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.11.1" >
+            
+                <span>
+            
+                    
+                        <b>7.11.1.</b>
+                    
+                    启动时间和冷启动优化
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.11.1.1" >
+            
+                <span>
+            
+                    
+                        <b>7.11.1.1.</b>
+                    
+                    避免启动白屏
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.2" >
+            
+                <span>
+            
+                    
+                        <b>7.11.2.</b>
+                    
+                    Crash 收集分析
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.3" >
+            
+                <span>
+            
+                    
+                        <b>7.11.3.</b>
+                    
+                    卡顿检测和优化
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.11.3.1" >
+            
+                <span>
+            
+                    
+                        <b>7.11.3.1.</b>
+                    
+                    ARR
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.3.2" >
+            
+                <span>
+            
+                    
+                        <b>7.11.3.2.</b>
+                    
+                    避免频繁GC
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.3.3" >
+            
+                <span>
+            
+                    
+                        <b>7.11.3.3.</b>
+                    
+                    ViewHolder
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.4" >
+            
+                <span>
+            
+                    
+                        <b>7.11.4.</b>
+                    
+                    布局优化
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.11.4.1" >
+            
+                <span>
+            
+                    
+                        <b>7.11.4.1.</b>
+                    
+                    include、merge、ViewStub的使用
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.5" >
+            
+                <span>
+            
+                    
+                        <b>7.11.5.</b>
+                    
+                    线程优化
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.6" >
+            
+                <span>
+            
+                    
+                        <b>7.11.6.</b>
+                    
+                    监控
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.11.6.1" >
+            
+                <span>
+            
+                    
+                        <b>7.11.6.1.</b>
+                    
+                    埋点
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.6.2" >
+            
+                <span>
+            
+                    
+                        <b>7.11.6.2.</b>
+                    
+                    APM性能检测
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.6.3" >
+            
+                <span>
+            
+                    
+                        <b>7.11.6.3.</b>
+                    
+                    WebView性能监控
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.6.4" >
+            
+                <span>
+            
+                    
+                        <b>7.11.6.4.</b>
+                    
+                    leakcanary内存泄露监控
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.7" >
+            
+                <span>
+            
+                    
+                        <b>7.11.7.</b>
+                    
+                    内存优化
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.11.7.1" >
+            
+                <span>
+            
+                    
+                        <b>7.11.7.1.</b>
+                    
+                    OOM
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.7.2" >
+            
+                <span>
+            
+                    
+                        <b>7.11.7.2.</b>
+                    
+                    内存泄露
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.7.3" >
+            
+                <span>
+            
+                    
+                        <b>7.11.7.3.</b>
+                    
+                    图片压缩
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.7.4" >
+            
+                <span>
+            
+                    
+                        <b>7.11.7.4.</b>
+                    
+                    内存分析
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.8" >
+            
+                <span>
+            
+                    
+                        <b>7.11.8.</b>
+                    
+                    apk瘦身
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.9" >
+            
+                <span>
+            
+                    
+                        <b>7.11.9.</b>
+                    
+                    电量优化
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.10" >
+            
+                <span>
+            
+                    
+                        <b>7.11.10.</b>
+                    
+                    网络优化
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.11.10.1" >
+            
+                <span>
+            
+                    
+                        <b>7.11.10.1.</b>
+                    
+                    网络调试
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.10.2" >
+            
+                <span>
+            
+                    
+                        <b>7.11.10.2.</b>
+                    
+                    低网速优化
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.10.3" >
+            
+                <span>
+            
+                    
+                        <b>7.11.10.3.</b>
+                    
+                    API优化
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11.10.4" >
+            
+                <span>
+            
+                    
+                        <b>7.11.10.4.</b>
+                    
+                    流量优化
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.12" >
+            
+                <span>
+            
+                    
+                        <b>7.12.</b>
+                    
+                    混合开发
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.12.1" >
+            
+                <span>
+            
+                    
+                        <b>7.12.1.</b>
+                    
+                    React Native
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.12.2" >
+            
+                <span>
+            
+                    
+                        <b>7.12.2.</b>
+                    
+                    Fuchsia+Flutter+Dart
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.12.3" >
+            
+                <span>
+            
+                    
+                        <b>7.12.3.</b>
+                    
+                    weex
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.13" >
+            
+                <span>
+            
+                    
+                        <b>7.13.</b>
+                    
+                    持续集成
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.13.1" >
+            
+                <span>
+            
+                    
+                        <b>7.13.1.</b>
+                    
+                    Jenkins
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">八、其他</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" >
+            
+                <span>
+            
+                    
+                        <b>8.1.</b>
+                    
+                    Python
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" >
+            
+                <span>
+            
+                    
+                        <b>8.2.</b>
+                    
+                    Linux
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="8.2.1" >
+            
+                <span>
+            
+                    
+                        <b>8.2.1.</b>
+                    
+                    kernel源码
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2.2" >
+            
+                <span>
+            
+                    
+                        <b>8.2.2.</b>
+                    
+                    SELinux
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" >
+            
+                <span>
+            
+                    
+                        <b>8.3.</b>
+                    
+                    Docker
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">九、Android 书籍</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" >
+            
+                <span>
+            
+                    
+                        <b>9.1.</b>
+                    
+                    入门
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.1.1" >
+            
+                <span>
+            
+                    
+                        <b>9.1.1.</b>
+                    
+                    第一行代码
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.1.2" >
+            
+                <span>
+            
+                    
+                        <b>9.1.2.</b>
+                    
+                    Android群英传
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.1.3" >
+            
+                <span>
+            
+                    
+                        <b>9.1.3.</b>
+                    
+                    Android编程权威指南
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.1.4" >
+            
+                <span>
+            
+                    
+                        <b>9.1.4.</b>
+                    
+                    Android编程实战
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2" >
+            
+                <span>
+            
+                    
+                        <b>9.2.</b>
+                    
+                    进阶
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.2.1" >
+            
+                <span>
+            
+                    
+                        <b>9.2.1.</b>
+                    
+                    Android开发进阶从小工到专家
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.2" >
+            
+                <span>
+            
+                    
+                        <b>9.2.2.</b>
+                    
+                    深入理解Android
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.3" >
+            
+                <span>
+            
+                    
+                        <b>9.2.3.</b>
+                    
+                    Android组件化架构
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.4" >
+            
+                <span>
+            
+                    
+                        <b>9.2.4.</b>
+                    
+                    App研发录
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.5" >
+            
+                <span>
+            
+                    
+                        <b>9.2.5.</b>
+                    
+                    Android 进阶解密
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.2.6" >
+            
+                <span>
+            
+                    
+                        <b>9.2.6.</b>
+                    
+                    Android 进阶之光
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3" >
+            
+                <span>
+            
+                    
+                        <b>9.3.</b>
+                    
+                    源码
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.3.1" >
+            
+                <span>
+            
+                    
+                        <b>9.3.1.</b>
+                    
+                    Android源码设计模式解析与实战
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3.2" >
+            
+                <span>
+            
+                    
+                        <b>9.3.2.</b>
+                    
+                    Android开发艺术探索
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.3.3" >
+            
+                <span>
+            
+                    
+                        <b>9.3.3.</b>
+                    
+                    Creating Dynamic UI with Android Fragments
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4" >
+            
+                <span>
+            
+                    
+                        <b>9.4.</b>
+                    
+                    安全
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.4.1" >
+            
+                <span>
+            
+                    
+                        <b>9.4.1.</b>
+                    
+                    Android安全架构深究
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.4.2" >
+            
+                <span>
+            
+                    
+                        <b>9.4.2.</b>
+                    
+                    Android软件安全与逆向分析
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="9.5" >
+            
+                <span>
+            
+                    
+                        <b>9.5.</b>
+                    
+                    底层
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="9.5.1" >
+            
+                <span>
+            
+                    
+                        <b>9.5.1.</b>
+                    
+                    Android系统源代码情景分析
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.5.2" >
+            
+                <span>
+            
+                    
+                        <b>9.5.2.</b>
+                    
+                    Android内核剖析
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="9.5.3" >
+            
+                <span>
+            
+                    
+                        <b>9.5.3.</b>
+                    
+                    深入理解Android内核设计思想
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">十、T型成长</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" >
+            
+                <span>
+            
+                    
+                        <b>10.1.</b>
+                    
+                    团队管理
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="10.1.1" >
+            
+                <span>
+            
+                    
+                        <b>10.1.1.</b>
+                    
+                    敏捷
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.1.2" >
+            
+                <span>
+            
+                    
+                        <b>10.1.2.</b>
+                    
+                    Devops
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.1.3" >
+            
+                <span>
+            
+                    
+                        <b>10.1.3.</b>
+                    
+                    CodeReview
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" >
+            
+                <span>
+            
+                    
+                        <b>10.2.</b>
+                    
+                    自我管理
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3" >
+            
+                <span>
+            
+                    
+                        <b>10.3.</b>
+                    
+                    后端
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="10.3.1" >
+            
+                <span>
+            
+                    
+                        <b>10.3.1.</b>
+                    
+                    领域驱动设计
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3.2" >
+            
+                <span>
+            
+                    
+                        <b>10.3.2.</b>
+                    
+                    微服务
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">十一、语言</li>
+        
+        
+    
+        <li class="chapter " data-level="11.1" >
+            
+                <span>
+            
+                    
+                        <b>11.1.</b>
+                    
+                    Kotlin
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.2" >
+            
+                <span>
+            
+                    
+                        <b>11.2.</b>
+                    
+                    C、C++（NDK）
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="11.3" >
+            
+                <span>
+            
+                    
+                        <b>11.3.</b>
+                    
+                    SQL（DB）
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="12.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>12.1.</b>
+                    
+                    README
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >AOP</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="aop">AOP</h1>
+<h3 id="&#x524D;&#x8A00;">&#x524D;&#x8A00;</h3>
+<p>AOP&#xFF1A;&#x9762;&#x5411;&#x5207;&#x9762;&#x7F16;&#x7A0B;&#x601D;&#x60F3;&#xFF0C;&#x662F;&#x7EE7;OOP&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7F16;&#x7A0B;&#x601D;&#x60F3;&#x540E;&#xFF0C;&#x53C8;&#x4E00;&#x4E2A;&#x4F1F;&#x5927;&#x601D;&#x60F3;&#x3002;AOP &#x601D;&#x60F3;&#x662F;&#x70ED;&#x4FEE;&#x590D;&#x3001;&#x4EE3;&#x7801;&#x63D2;&#x6869;&#x3001;&#x65E0;&#x57CB;&#x70B9;&#x7EDF;&#x8BA1;&#x7684;&#x57FA;&#x7840;&#x3002;</p>
+<h3 id="&#x5165;&#x95E8;">&#x5165;&#x95E8;</h3>
+<ul>
+<li><p><a href="https://blog.csdn.net/innost/article/details/49387395" target="_blank">&#x6DF1;&#x5165;&#x7406;&#x89E3;Android&#x4E4B;AOP</a></p>
+<blockquote>
+<p>&#x8BB2;&#x89E3;&#x8BED;&#x6CD5;&#x8D85;&#x7EA7;&#x8BE6;&#x7EC6;&#xFF01;</p>
+</blockquote>
+</li>
+<li><p><a href="https://juejin.im/post/5c01533de51d451b80257752" target="_blank">&#x4E00;&#x6587;&#x8BFB;&#x61C2; AOP | &#x4F60;&#x60F3;&#x8981;&#x7684;&#x6700;&#x5168;&#x9762; AOP &#x65B9;&#x6CD5;&#x63A2;&#x8BA8;</a></p>
+<blockquote>
+<p>&#x5BF9;&#x6BD4;&#x4E86;&#x4E3B;&#x6D41;&#x7684;AOP&#x65B9;&#x6CD5;&#x4F18;&#x7F3A;&#x70B9;&#x3001;&#x4F5C;&#x7528;&#x65F6;&#x673A;&#x3001;&#x64CD;&#x4F5C;&#x5BF9;&#x8C61;&#x548C;&#x5B66;&#x4E60;&#x6210;&#x672C;&#xFF0C;&#x8BA9;&#x4F60;&#x4E86;&#x89E3;&#x4EC0;&#x4E48;&#x662F;AOP&#xFF0C;AOP&#x53EF;&#x4EE5;&#x5E94;&#x7528;&#x5728;&#x54EA;&#xFF0C;AOP&#x7684;&#x6846;&#x67B6;&#x65B9;&#x6CD5;&#x6709;&#x4EC0;&#x4E48;&#x533A;&#x522B;</p>
+</blockquote>
+</li>
+<li><p><a href="https://www.jianshu.com/p/aa1112dbebc7" target="_blank">Android&#x9762;&#x5411;&#x5207;&#x9762;&#x7F16;&#x7A0B;&#xFF08;AOP&#xFF09;</a></p>
+<blockquote>
+<p>&#x6982;&#x5FF5;&#x8BB2;&#x89E3;+&#x8BED;&#x6CD5;&#x8BE6;&#x89E3;+AspectJ&#x5B9E;&#x6218;&#xFF0C;&#x901A;&#x4FD7;&#x6613;&#x61C2;</p>
+</blockquote>
+</li>
+<li><p><a href="https://www.jianshu.com/p/dca3e2c8608a" target="_blank">&#x5B89;&#x5353;AOP&#x4E09;&#x5251;&#x5BA2;:APT,AspectJ,Javassist</a></p>
+<blockquote>
+<p>&#x8BE6;&#x89E3;&#x4E09;&#x79CD;&#x4E3B;&#x6D41;&#x7684;AOP&#x65B9;&#x6CD5;&#xFF0C;&#x8FD8;&#x6709;&#x624B;&#x628A;&#x624B;&#x6559;&#x4F60;&#x600E;&#x4E48;&#x6572; Demo&#x3002;</p>
+</blockquote>
+</li>
+<li><p><a href="https://github.com/feelschaotic/AndroidKnowledgeSystem/tree/master/AOP/&#x795E;&#x7B56;&#x6570;&#x636E;-Android_&#x5168;&#x57CB;&#x70B9;&#x6280;&#x672F;&#x767D;&#x76AE;&#x4E66;.pdf" target="_blank">&#x795E;&#x7B56;&#x6570;&#x636E;-Android_&#x5168;&#x57CB;&#x70B9;&#x6280;&#x672F;&#x767D;&#x76AE;&#x4E66;.pdf</a></p>
+</li>
+</ul>
+<h3 id="&#x5E94;&#x7528;&#x843D;&#x5730;">&#x5E94;&#x7528;&#x843D;&#x5730;</h3>
+<ul>
+<li><p><a href="https://juejin.im/post/5c179c136fb9a049e66029dd" target="_blank">&#x4E00;&#x6587;&#x5E94;&#x7528; AOP | &#x6700;&#x5168;&#x9009;&#x578B;&#x8003;&#x91CF; + &#x8FB9;&#x5256;&#x6790;&#x7ECF;&#x5178;&#x5F00;&#x6E90;&#x5E93;&#x8FB9;&#x5B9E;&#x8DF5;&#xFF0C;&#x7F8E;&#x6ECB;&#x6ECB;</a></p>
+<blockquote>
+<p>&#x4E3A;&#x4F60;&#x9009;&#x62E9;&#x6700;&#x5408;&#x9002;&#x7684;AOP&#x65B9;&#x6CD5;&#x63D0;&#x4F9B;&#x4E86;&#x65B9;&#x5411;&#x548C;&#x8981;&#x70B9;&#xFF0C;&#x5206;&#x6790;&#x4E86;&#x7ECF;&#x5178;APT&#x6846;&#x67B6;ButterKnife&#x548C;&#x7ECF;&#x5178;Aspectj&#x6846;&#x67B6;hugo&#x7684;&#x5DE5;&#x4F5C;&#x6D41;&#x7A0B;&#xFF0C;&#x5E76;&#x8BE6;&#x89E3;&#x4E86;Javassist&#x7684;&#x6280;&#x672F;&#x57FA;&#x7840;&#xFF0C;&#x5982;&#xFF1A;Gradle&#x3001;Plugin&#x3001;Task&#x3001;Transform&#xFF0C;&#x4E00;&#x6B65;&#x6B65;&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x81EA;&#x52A8;try-catch&#x7684;&#x529F;&#x80FD;&#x3002;&#x6B64;&#x7BC7;&#x9002;&#x5408;&#x4E0D;&#x60F3;&#x62D8;&#x6CE5;&#x4E8E;AOP&#x6846;&#x67B6;&#x7EC6;&#x8282;&#xFF0C;&#x60F3;&#x4ECE;&#x5927;&#x5C40;&#x89C2;&#x638C;&#x63E1;AOP&#x601D;&#x60F3;&#x7684;&#x5C0F;&#x4F19;&#x4F34;&#x3002;</p>
+</blockquote>
+</li>
+<li><p><a href="https://www.jianshu.com/p/33d8a3165b07" target="_blank">&#x5B89;&#x5353;AOP&#x5B9E;&#x6218;:Javassist&#x5F3A;&#x64B8;EventBus</a></p>
+</li>
+</ul>
+<h4 id="1-aspect">1. Aspect</h4>
+<ul>
+<li><p><a href="https://fernandocejas.com/2014/08/03/aspect-oriented-programming-in-android/" target="_blank">Aspect Oriented Programming in Android</a></p>
+</li>
+<li><p><a href="https://www.jianshu.com/p/0fa8073fd144" target="_blank">Aspect Oriented Programming in Android &#x7FFB;&#x8BD1;&#x7248;</a></p>
+</li>
+</ul>
+<p>&#x4E66;&#x7C4D;&#xFF1A;Manning.AspectJ.in.Action&#x7B2C;&#x4E8C;&#x7248;</p>
+<h4 id="2-javassist">2. Javassist</h4>
+<ul>
+<li><a href="https://blog.csdn.net/u010386612/article/details/51131642" target="_blank">Android&#x70ED;&#x8865;&#x4E01;&#x52A8;&#x6001;&#x4FEE;&#x590D;&#x6280;&#x672F;&#xFF08;&#x4E09;&#xFF09;&#x2014;&#x2014; &#x4F7F;&#x7528;Javassist&#x6CE8;&#x5165;&#x5B57;&#x8282;&#x7801;&#xFF0C;&#x5B8C;&#x6210;&#x70ED;&#x8865;&#x4E01;&#x6846;&#x67B6;&#x96CF;&#x5F62;&#xFF08;&#x53EF;&#x4F7F;&#x7528;&#xFF09;</a></li>
+</ul>
+<blockquote>
+<p>&#x89C1;&#x8FC7;&#x7684;&#x6700;&#x8BE6;&#x7EC6;&#x6700;&#x901A;&#x4FD7;&#x7684;&#x5E94;&#x7528;Javassist&#x7684;&#x535A;&#x6587;</p>
+</blockquote>
+<ul>
+<li><a href="https://www.jianshu.com/p/43424242846b" target="_blank">&#x3010;&#x8BD1;&#x3011;Javassist &#x4F7F;&#x7528;&#x6307;&#x5357;&#xFF08;&#x4E00;&#xFF09;</a></li>
+<li><a href="https://www.jianshu.com/p/b9b3ff0e1bf8" target="_blank">&#x3010;&#x8BD1;&#x3011;Javassist &#x4F7F;&#x7528;&#x6307;&#x5357;&#xFF08;&#x4E8C;&#xFF09;</a></li>
+<li><a href="https://www.jianshu.com/p/7803ffcc81c8" target="_blank">&#x3010;&#x8BD1;&#x3011;Javassist &#x4F7F;&#x7528;&#x6307;&#x5357;&#xFF08;&#x4E09;&#xFF09;</a><blockquote>
+<p>&#x5B98;&#x65B9;&#x8BD1;&#x6587;&#xFF0C;&#x5DE5;&#x5177;&#x7C7B;&#xFF0C;&#x504F;&#x8BED;&#x6CD5;</p>
+</blockquote>
+</li>
+</ul>
+<h4 id="3-ast">3. AST</h4>
+<ul>
+<li><a href="https://www.jianshu.com/p/5514cf705666" target="_blank">&#x5B89;&#x5353;AOP&#x4E4B;AST:&#x62BD;&#x8C61;&#x8BED;&#x6CD5;&#x6811;</a></li>
+<li><a href="https://www.jianshu.com/p/a827a95fde17" target="_blank">&#x57FA;&#x4E8E;AST&#x7684;&#x7EC4;&#x4EF6;&#x5316;&#x81EA;&#x52A8;&#x63D2;&#x6869;&#x65B9;&#x6848;</a></li>
+<li><a href="http://www.eclipse.org/articles/Article-JavaCodeManipulation_AST/" target="_blank">eclipse&#x5B98;&#x65B9;&#x4ECB;&#x7ECD;AST</a></li>
+</ul>
+<h4 id="4-apt">4. APT</h4>
+<ul>
+<li><a href="https://www.jianshu.com/p/7af58e8e3e18" target="_blank">&#x3010;Android&#x3011;APT</a><blockquote>
+<p>&#x624B;&#x628A;&#x624B;&#x6559;&#x4F60;&#x901A;&#x8FC7; APT &#x5B9E;&#x73B0; ButterKnife &#x4E2D;&#x7684; @BindView &#x529F;&#x80FD;</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="&#x539F;&#x7406;">&#x539F;&#x7406;</h3>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"AOP","level":"7.3","depth":1,"next":{"title":"插件化技术","level":"7.4","depth":1,"ref":"","articles":[{"title":"class和dex学习","level":"7.4.1","depth":2,"ref":"","articles":[]},{"title":"ClassLoader原理","level":"7.4.2","depth":2,"ref":"","articles":[{"title":"如何hook Activity启动流程","level":"7.4.2.1","depth":3,"ref":"","articles":[]},{"title":"双亲委派","level":"7.4.2.2","depth":3,"ref":"","articles":[]}]},{"title":"插件化原理","level":"7.4.3","depth":2,"ref":"","articles":[]},{"title":"插件化框架学习","level":"7.4.4","depth":2,"ref":"","articles":[]}]},"previous":{"title":"签名","level":"7.2.4","depth":2,"ref":"","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","fontsettings","splitter"],"root":"./content","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"tbfed-pagefooter":{"copyright":"Copyright &copy FeelsChaotic 2019"},"search-pro":{},"fontsettings":{"theme":"white","family":"sans","size":2},"splitter":{},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]}},"theme":"default","author":"FeelsChaotic","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"version":"0.0.0"},"title":"最全 Android 进阶路线知识图谱","gitbook":"*","description":"你想要的最全 Android 进阶路线知识图谱+干货资料收集"},"file":{"path":"AOP/AOP.md","mtime":"2019-01-12T14:00:07.282Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-01-12T14:01:45.659Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+
+    </body>
+</html>
+
