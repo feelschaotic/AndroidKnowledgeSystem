@@ -1,7 +1,7 @@
 var pkg = require('./package.json');
 
 module.exports = {
-    root: './content',
+    root: './',
     output: './book',
     title: '最全 Android 进阶路线知识图谱',
 	author : 'FeelsChaotic',

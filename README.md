@@ -35,7 +35,7 @@
 
 # GitBook
 
-以 GitBook 电子书的形式来展现本项目，阅读体验好，界面清爽又方便管理，[马上开启阅读吧！](https://github.com/feelschaotic/AndroidKnowledgeSystem/tree/master/_book/index.html)
+以 GitBook 电子书的形式来展现本项目，阅读体验好，界面清爽又方便管理，[马上开启阅读吧！](https://feelschaotic.gitbook.io/android-knowledge-system/)
 
 ![](https://upload-images.jianshu.io/upload_images/3167794-ec064709714dbc6f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 

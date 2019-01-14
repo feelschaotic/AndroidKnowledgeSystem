@@ -36,18 +36,26 @@ AOP：面向切面编程思想，是继OOP面向对象编程思想后，又一�
 
 #### 2. Javassist
 - [Android热补丁动态修复技术（三）—— 使用Javassist注入字节码，完成热补丁框架雏形（可使用）](https://blog.csdn.net/u010386612/article/details/51131642)
-
 > 见过的最详细最通俗的应用Javassist的博文
 
 - [【译】Javassist 使用指南（一）](https://www.jianshu.com/p/43424242846b)
+
 - [【译】Javassist 使用指南（二）](https://www.jianshu.com/p/b9b3ff0e1bf8)
+
 - [【译】Javassist 使用指南（三）](https://www.jianshu.com/p/7803ffcc81c8)
 > 官方译文，工具类，偏语法
 
 #### 3. AST
+- [AST抽象语法树——最基础的javascript重点知识，99%的人根本不了解](https://segmentfault.com/a/1190000016231512)
+> 基础地解释了什么是 AST
+
 - [安卓AOP之AST:抽象语法树](https://www.jianshu.com/p/5514cf705666)
+
 - [基于AST的组件化自动插桩方案](https://www.jianshu.com/p/a827a95fde17)
+
 - [eclipse官方介绍AST](http://www.eclipse.org/articles/Article-JavaCodeManipulation_AST/)
+
+- [openJdk 介绍 AST](http://openjdk.java.net/groups/compiler/doc/compilation-overview/index.html)
 
 #### 4. APT
 - [【Android】APT](https://www.jianshu.com/p/7af58e8e3e18)
