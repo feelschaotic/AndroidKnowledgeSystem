@@ -173,11 +173,9 @@
 
 	* Picasso
 
-* 依赖注入
+* [依赖注入]()
 
-	* butterknife
-
-		* apt
+	* [ButterKnife](开源库/依赖注入/ButterKnife.md)
 
 	* Dagger2
 
