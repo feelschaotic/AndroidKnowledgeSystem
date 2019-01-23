@@ -49,13 +49,19 @@ AOP：面向切面编程思想，是继OOP面向对象编程思想后，又一�
 - [AST抽象语法树——最基础的javascript重点知识，99%的人根本不了解](https://segmentfault.com/a/1190000016231512)
 > 基础地解释了什么是 AST
 
-- [安卓AOP之AST:抽象语法树](https://www.jianshu.com/p/5514cf705666)
-
-- [基于AST的组件化自动插桩方案](https://www.jianshu.com/p/a827a95fde17)
-
 - [eclipse官方介绍AST](http://www.eclipse.org/articles/Article-JavaCodeManipulation_AST/)
 
 - [openJdk 介绍 AST](http://openjdk.java.net/groups/compiler/doc/compilation-overview/index.html)
+
+- [AOP 最后一块拼图 | AST 抽象语法树 —— 最轻量级的AOP方法](https://juejin.im/post/5c45bce5f265da612c5e2d3f)
+> 对如何利用AST进行了详细讲解，且剖析了ButterKnife对AST的应用，加深理解，全网少有的剖析ButterKnife AST的博文
+
+- [安卓AOP之AST:抽象语法树](https://www.jianshu.com/p/5514cf705666)
+> 不错的demo，遗憾的是没有详细讲解
+
+- [基于AST的组件化自动插桩方案](https://www.jianshu.com/p/a827a95fde17)
+> 完整的demo，遗憾的是没有详细讲解，需要自己理解下
+
 
 #### 4. APT
 - [【Android】APT](https://www.jianshu.com/p/7af58e8e3e18)
