@@ -175,7 +175,7 @@
 
 * [依赖注入]()
 
-	* [ButterKnife](开源库/依赖注入/ButterKnife.md)
+	* [ButterKnife](3. 开源库/依赖注入/ButterKnife.md)
 
 	* Dagger2
 
@@ -353,7 +353,7 @@
 
 	* 签名
 
-* [AOP](AOP/AOP.md)
+* [AOP](7. 进阶/AOP/AOP.md)
 
 * 插件化技术
 
@@ -577,14 +577,16 @@
 
 ## 十、T型成长
 
-* 团队管理
+* [团队管理]()
 
 	* 敏捷
 
 	* Devops
 
 	* CodeReview
-
+	
+	* [代码质量与代码规范](10. T型成长/团队管理/代码质量与代码规范.md)
+		
 * 自我管理
 
 * 后端
