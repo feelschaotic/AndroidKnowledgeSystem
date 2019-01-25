@@ -17,7 +17,7 @@ AOP：面向切面编程思想，是继OOP面向对象编程思想后，又一�
 - [安卓AOP三剑客:APT,AspectJ,Javassist](https://www.jianshu.com/p/dca3e2c8608a)
 > 详解三种主流的AOP方法，还有手把手教你怎么敲 Demo。
 
-- [神策数据-Android_全埋点技术白皮书.pdf](https://github.com/feelschaotic/AndroidKnowledgeSystem/tree/master/AOP/神策数据-Android_全埋点技术白皮书.pdf)
+- [神策数据-Android_全埋点技术白皮书.pdf](https://github.com/feelschaotic/AndroidKnowledgeSystem/tree/master/7.%20进阶/AOP/神策数据-Android_全埋点技术白皮书.pdf)
 
 ### 应用落地
 
