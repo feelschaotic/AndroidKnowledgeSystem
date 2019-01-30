@@ -16,7 +16,12 @@
 
 # 和别的知识体系有什么区别？
 
-一个字，最全面
+- 一个字，最全面
+- 这不是一个简单的知识体系，每个知识点都有**详细的导读**
+![](https://upload-images.jianshu.io/upload_images/3167794-3a23013cffa9d42a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 这不是一个简单的资源收集项目，每篇资料都有**详细的介绍**
+![](https://upload-images.jianshu.io/upload_images/3167794-87076e7ee37a1dd7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 你能得到什么？
 
