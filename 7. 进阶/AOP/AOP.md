@@ -124,5 +124,8 @@ AOP 即面向切面编程思想，是继 OOP 面向对象编程思想后的又�
 
 ### 原理
 
+- [会用就行了？你知道 AOP 框架的原理吗？](https://www.jianshu.com/p/cfa16f4cf375)
+> 本文从另一个角度讲解 AOP，从宏观的实现原理和设计本质入手。大部分讲 AOP 的博文都是一上来就罗列语法，然后敲个应用 demo就完了 。但学习不能知其然，不知其所以然。对 AOP 作者提出了几点思考：AspectJ 为什么会大热？AspectJ 是怎样工作的？和 Spring AOP 有什么区别？什么场景下适用？我们能不能自己实现一个 AOP 方法？
+
 - [AOP 之 @AspectJ 技术原理详解](https://blog.csdn.net/woshimalingyi/article/details/73252013#23-%E6%89%A7%EF%A8%88%E5%8E%9F%EF%A7%A4)
 > 图解 AspectJ 是怎么对目标工程的 .class 文件进行代码注入，让你宏观掌握 AspectJ 的执行原理。
