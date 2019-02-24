@@ -34,7 +34,7 @@
 
 # Android 最全知识体系图谱
 
-![](https://upload-images.jianshu.io/upload_images/3167794-c9b852ba0fbe68ee.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://github.com/feelschaotic/AndroidKnowledgeSystem/tree/master/Android知识体系图谱/Android知识体系图谱.png)
 
 > [想要获取其他格式？请戳](https://github.com/feelschaotic/AndroidKnowledgeSystem/tree/master/Android知识体系图谱)
 
