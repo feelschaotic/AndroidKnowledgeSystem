@@ -345,31 +345,47 @@
 
 * [AOP](7. 进阶/AOP/AOP.md)
 
-* 插件化技术
+* 动态化
 
-	* class和dex学习
+	* 混合开发
 
-	* ClassLoader原理
+		* React Native
 
-		* 如何hook Activity启动流程
+		* Fuchsia+Flutter+Dart
 
-		* 双亲委派
+		* weex
 
-	* 插件化原理
+		* JavaScript引擎
 
-	* 插件化框架学习
+		* 渲染引擎
+	
+	* 插件化
 
+		* class和dex学习
+
+		* ClassLoader原理
+
+			* 如何hook Activity启动流程
+
+			* 双亲委派
+
+		* 插件化原理
+
+		* 插件化框架
+
+	* 热修复
+
+		* 插桩
+
+			* ASM字节码
+
+		* 类加载方式
+
+		* 底层替换
+		
 * 组件化
 
 	* 页面路由
-
-* 热修复
-
-	* tinker
-
-	* 插桩
-
-	* ASM字节码
 
 * 消息推送&保活
 
@@ -492,14 +508,6 @@
 		* API优化
 
 		* 流量优化
-
-* 混合开发
-
-	* React Native
-
-	* Fuchsia+Flutter+Dart
-
-	* weex
 
 * 持续集成
 
