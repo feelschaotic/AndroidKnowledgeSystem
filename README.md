@@ -17,10 +17,10 @@
 # 和别的知识体系有什么区别？
 
 - 一个字，最全面
-- 这不是一个简单的知识体系，每个知识点都有**详细的导读**
+- 这不是一个简单的知识体系，每个知识点都有**详细的导读**  
 ![](https://upload-images.jianshu.io/upload_images/3167794-3a23013cffa9d42a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-- 这不是一个简单的资源收集项目，每篇资料都有**详细的介绍**
+- 这不是一个简单的资源收集项目，每篇资料都有**详细的介绍**  
 ![](https://upload-images.jianshu.io/upload_images/3167794-87076e7ee37a1dd7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 你能得到什么？
@@ -34,7 +34,7 @@
 
 # Android 最全知识体系图谱
 
-![](https://github.com/feelschaotic/AndroidKnowledgeSystem/blob/master/Android%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E5%9B%BE%E8%B0%B1/Android%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%E5%9B%BE%E8%B0%B1.png)
+![](https://upload-images.jianshu.io/upload_images/3167794-3c82d87adcf1e662.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 > [想要获取其他格式？请戳](https://github.com/feelschaotic/AndroidKnowledgeSystem/tree/master/Android知识体系图谱)
 
