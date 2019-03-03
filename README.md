@@ -1,3 +1,12 @@
+<p align='center'>
+<img src='https://upload-images.jianshu.io/upload_images/3167794-365ce73e4a5e66f4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240'>
+</p>
+
+<p align='center'>
+<a href="https://www.jianshu.com/u/79087863dce7"><img src="https://img.shields.io/badge/%E7%AE%80%E4%B9%A6-@FeelsChaotic-CD6839.svg?style=flat&colorA=ed6f59"></a>
+<a href="https://juejin.im/user/58130890bf22ec0068821df3"><img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-@FeelsChaotic-00cccc.svg?style=flat&colorA=1970fe"></a>
+</p>
+
 # TheMostCompleteAndroidKnowledgeSystemAndRealStuff
 
 你想要的最全 Android 进阶路线知识图谱 + 干货资料收集，一条龙解决「查漏 -> 搜索资料 -> 专项学习 -> fix 短板」的闭环
@@ -56,3 +65,6 @@
 生成 mobi 格式的电子书：
 > $ gitbook mobi ./ ./mybook.mobi
 
+## ©️ 转载
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />本<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">作品</span>由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/feelschaotic/AndroidKnowledgeSystem" property="cc:attributionName" rel="cc:attributionURL">FeelsChaotic</a> 创作，采用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0 国际许可协议</a>进行许可。
