@@ -577,7 +577,7 @@
 
 ## 十一、语言
 
-* Kotlin
+* [Kotlin](11. 语言/Kotlin.md)
 
 * C、C++（NDK）
 
