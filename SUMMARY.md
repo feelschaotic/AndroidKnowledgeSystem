@@ -377,15 +377,7 @@
 
 	* 进程保活
 
-* NDK
-
-	* 调用JNI方法
-
-	* 回调JAVA方法
-
-	* CMAKE语法
-
-	* NDK MakeFile语法
+* [JNI](7. 进阶/jni/JNI.md)
 
 * 安全
 
