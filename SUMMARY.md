@@ -223,15 +223,9 @@
 
 	* RxJava
 
+* [Binder机制](5. 常见机制/Binder机制.md)
+
 * 进程
-
-	* IPC通信Binder
-
-		* AIDL
-
-		* 序列化
-
-		* 匿名共享内存
 
 	* lowmemorykiller 
 
