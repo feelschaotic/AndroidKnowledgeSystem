@@ -25,8 +25,25 @@ Binder 是 Android 提供的一种进程间通信机制，它是整个 Android 系统的核心，Android
 
 ### 底层
 
+- [Android跨进程通信IPC系列文](https://www.jianshu.com/p/36b488863bc0)
+> Binder系列文，由浅入深，方方面面。
+
+- [一篇文章了解相见恨晚的 Android Binder 进程间通讯机制](https://blog.csdn.net/freekiteyu/article/details/70082302)
+> 图画得相当不错。
+
 - [Android进程间通信（IPC）机制Binder简要介绍和学习计划](https://blog.csdn.net/luoshengyang/article/details/6618363)
 > 老罗的系列文章从系统源码角度深入分析了Binder的实现细节，具有很大的参考意义。
+
+- [gityuan Binder系列](http://gityuan.com/2015/10/31/binder-prepare/)
+> 基于Android 6.0的源码剖析。
+
+- [wangkuiwu Binder机制(一) Binder的设计和框架](http://wangkuiwu.github.io/2014/09/01/Binder-Introduce/#anchor2_2_2)
+> 比较老的博文了，胜在图画得非常不错，可以做个参考。
+
+### 最后
+
+- [听说你Binder机制学的不错，来面试下这几个问题](https://www.jianshu.com/p/adaa1a39a274)
+> 挖掘出Binder一些难以理解或细节的点。
 
 ### 后记
 
