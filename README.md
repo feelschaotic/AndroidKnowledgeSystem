@@ -25,12 +25,27 @@
 
 # 二、和别的知识体系有什么区别？
 
-- 一个字，最全面
+- 一个字，**最全面**
 - 这不是一个简单的知识体系，每个知识点都有**详细的导读**  
-![](https://upload-images.jianshu.io/upload_images/3167794-3a23013cffa9d42a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/3167794-9f7e92f49fb1ef3c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-- 这不是一个简单的资源收集项目，每篇资料都有**详细的介绍**  
+![](https://upload-images.jianshu.io/upload_images/3167794-87622e80422d0498.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![](https://upload-images.jianshu.io/upload_images/3167794-169b62f1a0f01acd.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 这不是一个简单的知识概述，每个知识点都有**学习方法和顺序指引**  
+![](https://upload-images.jianshu.io/upload_images/3167794-2bfad9123c3d6c7a.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- 这不是一个简单的资源收集项目，每篇资料都有**闪亮的优点**  
 ![](https://upload-images.jianshu.io/upload_images/3167794-87076e7ee37a1dd7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![](https://upload-images.jianshu.io/upload_images/3167794-a76cfb45d0a4fd1f.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+
+
+
+
 
 # 三、你能得到什么？
 
@@ -46,6 +61,8 @@
 ![](https://upload-images.jianshu.io/upload_images/3167794-3c82d87adcf1e662.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 > [想要获取其他格式？请戳](https://github.com/feelschaotic/AndroidKnowledgeSystem/tree/master/Android知识体系图谱)
+
+> 图谱可能存在更新不及时的情况，请以目录文件`SUMMARY.md`为准
 
 # GitBook
 
