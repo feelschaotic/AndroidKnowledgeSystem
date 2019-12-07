@@ -21,3 +21,8 @@ HashMap并不简单，涉及的知识遍及线程、Java内存模型、哈希计
 
 - [HashMap深度分析](https://www.jianshu.com/p/8b372f3a195d)
 > 从面试的角度切入，可以作为细节点的补充。
+
+## 细节
+
+- [由HashMap哈希算法引出的求余%和与运算&转换问题](https://www.cnblogs.com/ysocean/p/9054804.html)
+> 从数学的角度论证为什么当 lenth = 2n 时，X % length = X & (length - 1)
