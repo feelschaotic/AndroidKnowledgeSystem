@@ -23,3 +23,8 @@
 
 - [认真分析mmap：是什么 为什么 怎么用](https://www.cnblogs.com/huxiao-tee/p/4660352.html)
 > 详细阐述了 MMAP 的使用细节，具有参考意义。
+
+### 图示
+
+- [MMAP原理图示.vsd](https://github.com/feelschaotic/AndroidKnowledgeSystem/tree/master/8.%20%E5%85%B6%E4%BB%96/Linux/MMAP原理图示.vsd)
+- [MMAP内存映射技术.gif](https://github.com/feelschaotic/AndroidPrincipleAnimation/blob/master/MMAP%E5%86%85%E5%AD%98%E6%98%A0%E5%B0%84%E6%8A%80%E6%9C%AF.gif)
