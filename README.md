@@ -62,7 +62,15 @@
 
 > [想要获取其他格式？请戳](https://github.com/feelschaotic/AndroidKnowledgeSystem/tree/master/Android知识体系图谱)
 
-> 图谱可能存在更新不及时的情况，请以目录文件`SUMMARY.md`为准
+**图谱可能存在更新不及时的情况，请以目录文件`SUMMARY.md`为准**
+
+# 更新计划
+
+更新计划请见[看板](https://github.com/feelschaotic/AndroidKnowledgeSystem/projects/1)
+
+大家可以留言，说下希望看到哪些知识点，优先更新。
+
+更新情况见`SUMMARY.md`，有`md`链接的即为更新完成。
 
 # GitBook
 
