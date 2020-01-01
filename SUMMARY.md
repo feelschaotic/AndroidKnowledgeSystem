@@ -264,13 +264,13 @@
 	* 网络协议
 
 	* [集合]()
-			* [集合这么多，我该怎么掌握？](6. 基础能力/集合/集合这么多，我该怎么掌握？.md)
-			* [HashMap](6. 基础能力/集合/HashMap.md)  
-			* LinkedHashMap  
-			* HashTable  
-			* CurrentHashMap  
-			* TreeMap  
-			* SparseArray  
+		* [集合这么多，我该怎么掌握？](6. 基础能力/集合/集合这么多，我该怎么掌握？.md)  
+		* [HashMap](6. 基础能力/集合/HashMap.md)    
+		* [LinkedHashMap](6. 基础能力/集合/LinkedHashMap.md)    
+		* HashTable  
+		* CurrentHashMap  
+		* TreeMap  
+		* [SparseArray](6. 基础能力/集合/SparseArray.md)  
 	
 * [数据结构和算法](6. 基础能力/数据结构与算法.md)
 
