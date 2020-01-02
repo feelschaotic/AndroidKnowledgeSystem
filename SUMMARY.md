@@ -153,13 +153,7 @@
 
 * 图片
 
-	* Glide
-
-		* 生命周期控制
-
-		* 二级缓存
-
-		* BitmapPool复用
+	* [Glide](3. 开源库/图片/Glide.md)
 
 	* Fresco
 
