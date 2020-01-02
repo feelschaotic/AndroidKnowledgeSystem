@@ -155,7 +155,7 @@
 
 	* [Glide](3. 开源库/图片/Glide.md)
 
-	* Fresco
+	* [Fresco](3. 开源库/图片/Fresco.md)
 
 	* Picasso
 
