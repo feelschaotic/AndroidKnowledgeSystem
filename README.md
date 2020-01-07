@@ -46,17 +46,12 @@
   ![](https://upload-images.jianshu.io/upload_images/3167794-a76cfb45d0a4fd1f.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-
-
-
-
-
 # 三、你能得到什么？
 
-- 对 Android 知识体系完整的掌握
-- 建立碎片化知识点的关联
-- 节省时间，快速找到优秀的专项博文
-- 推广导流，欢迎投稿自己优秀的博文，万一这个项目火了呢？（斜眼笑）
+- 对 Android 知识体系**完整的掌握**
+- 建立碎片化知识点的**关联**
+- 节省时间，**快速找到**优秀的专项博文
+- 推广导流，**欢迎投稿**自己优秀的博文，万一这个项目火了呢？（斜眼笑）
 
 ---
 
@@ -67,14 +62,6 @@
 > [想要获取其他格式？请戳](https://github.com/feelschaotic/AndroidKnowledgeSystem/tree/master/Android知识体系图谱)
 
 **图谱可能存在更新不及时的情况，请以目录文件`SUMMARY.md`为准**
-
-# 更新计划
-
-更新计划请见[看板](https://github.com/feelschaotic/AndroidKnowledgeSystem/projects/1)
-
-大家可以留言，说下希望看到哪些知识点，优先更新。
-
-更新情况见`SUMMARY.md`，有`md`链接的即为更新完成。
 
 # GitBook
 
@@ -94,7 +81,10 @@
 生成 mobi 格式的电子书：
 > $ gitbook mobi ./ ./mybook.mobi
 
-## 翻译计划
+
+# 维护计划
+
+## 诚邀你参与翻译计划
 
 本项目登上趋势榜单后受到**各地开发者**的关注。
 
@@ -104,9 +94,27 @@
 
 遗憾的是目前只有中文版本，诚挚邀请各位小伙伴，**一起参与英文版的制作**（身为英语渣渣的痛~）。
 
+想了解如何参与翻译计划？这里有份[翻译指南送上]()。
+
+## 诚邀你一起维护
+
+术业有专攻，你可以自由**选择**知识体系里擅长或感兴趣的知识点，编写导读、学习方式和资料推荐。**写下来本身就是一个促进思考整理的过程喔！**
+
+想了解如何参与维护？这里有份[维护指南送上]()。
+
+## 更新计划
+
+更新计划请见[看板](https://github.com/feelschaotic/AndroidKnowledgeSystem/projects/1)
+
+大家可以留言，说下希望看到哪些知识点，优先更新。更新情况见`SUMMARY.md`，有`md`链接的即为更新完成。
+
+## 联系方式
+
 如果你
 - 热爱开源
 - 希望为开源贡献一份力量
+- 有好的优化想法和写作建议
+- 想向我提问
 
 请扫码进群与我联系，奥利给！
 
@@ -114,6 +122,6 @@
 
 ![](https://i.loli.net/2020/01/04/xHaCWLkDirouMtn.jpg)
 
-## ©️ 转载
+# ©️ 转载
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />本<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">作品</span>由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/feelschaotic/AndroidKnowledgeSystem" property="cc:attributionName" rel="cc:attributionURL">FeelsChaotic</a> 创作，采用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0 国际许可协议</a>进行许可。
