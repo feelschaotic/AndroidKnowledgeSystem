@@ -9,11 +9,11 @@ JsBridge，顾名思义，就是作为 js 和 native 之间通信的桥梁，而
 ### 调用方式
 #### 1. Android 调用 JS
 
-![](https://upload-images.jianshu.io/upload_images/3167794-4620186a4dcdc383.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://s2.ax1x.com/2020/01/08/lg74l8.png)
 
 #### 2. JS 调用 Android 
 
-![](https://upload-images.jianshu.io/upload_images/3167794-7b50c029eb913081.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://s2.ax1x.com/2020/01/08/lg756S.png)
 
 ### 原理
 
