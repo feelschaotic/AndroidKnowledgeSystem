@@ -12,7 +12,7 @@ JS 引擎是浏览器的组成部分之一，负责把 JavaScript 代码转换�
 
 > 计算机自身是不懂我们编写的 Javascript，因此需要 Javascript 引擎去转换 Javascript 代码成计算机能识别的机器码，这样才能被处理，如下图：
 >
->![](https://upload-images.jianshu.io/upload_images/2444638-a7dc02890571252a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp)
+>![](https://s2.ax1x.com/2020/01/08/lRFXKe.md.jpg)
 >
 >- 堆栈底部是机器码，这是机器能识别并基于它运行，但机器码非常难编写
 >- 因此我们以不同的语言远离机器码，如在机器码之上的汇编语言，但这仍然很像机器码

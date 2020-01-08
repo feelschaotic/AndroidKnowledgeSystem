@@ -4,7 +4,7 @@
 
 `glide`是一个非常优秀的开源库，源码复杂，功能强大。
 
-![](http://upload-images.jianshu.io/upload_images/944365-8452907ae5057ae7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://s2.ax1x.com/2020/01/08/lRFqgO.png)
 
 如图所示，`glide`不仅仅只有图片加载功能，那这么多知识点，怎么学呢？
 
