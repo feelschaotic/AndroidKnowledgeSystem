@@ -1,5 +1,5 @@
 <p align='center'>
-<img src='https://upload-images.jianshu.io/upload_images/3167794-365ce73e4a5e66f4.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240'>
+<img src='https://i.loli.net/2020/01/08/7HURql4otzYPivh.jpg'>
 </p>
 
 <p align='center'>
@@ -31,19 +31,19 @@
 
 - 一个字，**最全面**
 - 这不是一个简单的知识体系，每个知识点都有**详细的导读**  
-![](https://upload-images.jianshu.io/upload_images/3167794-9f7e92f49fb1ef3c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://i.loli.net/2020/01/08/ABQPqLyZaFpwlCO.png)
 
-  ![](https://upload-images.jianshu.io/upload_images/3167794-87622e80422d0498.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![](https://i.loli.net/2020/01/08/xCf6vmsyqijko3u.png)
 
-  ![](https://upload-images.jianshu.io/upload_images/3167794-169b62f1a0f01acd.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![](https://i.loli.net/2020/01/08/uN3BLiJ1GzRyXYE.png)
 
 - 这不是一个简单的知识概述，每个知识点都有**学习方法和顺序指引**  
-![](https://upload-images.jianshu.io/upload_images/3167794-2bfad9123c3d6c7a.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://i.loli.net/2020/01/08/jwalUBVmIFCAbDN.png)
 
 - 这不是一个简单的资源收集项目，每篇资料都有**闪亮的优点**  
-![](https://upload-images.jianshu.io/upload_images/3167794-87076e7ee37a1dd7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://i.loli.net/2020/01/08/E9n73gaTDRylkus.png)
 
-  ![](https://upload-images.jianshu.io/upload_images/3167794-a76cfb45d0a4fd1f.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![](https://i.loli.net/2020/01/08/EhzDJgoXZtM45Ga.png)
 
 
 # 三、你能得到什么？
@@ -57,7 +57,7 @@
 
 # Android 最全知识体系图谱
 
-![](https://upload-images.jianshu.io/upload_images/3167794-3c82d87adcf1e662.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://i.loli.net/2020/01/08/AheRqs2ZaWGYyIx.png)
 
 > [想要获取其他格式？请戳](https://github.com/feelschaotic/AndroidKnowledgeSystem/tree/master/Android知识体系图谱)
 
@@ -67,7 +67,7 @@
 
 以 GitBook 电子书的形式来展现本项目，阅读体验好，界面清爽又方便管理，[马上开启阅读吧！](https://feelschaotic.gitbook.io/android-knowledge-system/)（需自备梯子）
 
-![](https://upload-images.jianshu.io/upload_images/3167794-ec064709714dbc6f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://i.loli.net/2020/01/08/P9rivjR5dAsDLJw.png)
 
 > - 添加 gitbook-plugin-search-pro 插件支持中文搜索
 > - 添加 Splitter 插件支持 GitBook 侧边栏目录的宽度可以自由调节
@@ -88,7 +88,7 @@
 
 本项目登上趋势榜单后受到**各地开发者**的关注。
 
-![](https://upload-images.jianshu.io/upload_images/3167794-9b9eefe7d58191bb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://i.loli.net/2020/01/08/28NiJmeg9bjOSQI.png)
 
 ![](https://i.loli.net/2020/01/04/xUMVP9TKCRZiWjb.png)
 
