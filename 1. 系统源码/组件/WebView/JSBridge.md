@@ -4,7 +4,7 @@
 
 JsBridge，顾名思义，就是作为 js 和 native 之间通信的桥梁，而且是双向通信的通道。
 
-![](https://user-gold-cdn.xitu.io/2018/3/29/16270f744a3e61f2?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+![](https://s2.ax1x.com/2020/01/08/lgLzCR.png)
 
 ### 调用方式
 #### 1. Android 调用 JS
