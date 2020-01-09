@@ -65,9 +65,9 @@
 
 # GitBook
 
-以 GitBook 电子书的形式来展现本项目，阅读体验好，界面清爽又方便管理，[马上开启阅读吧！](https://feelschaotic.gitbook.io/android-knowledge-system/)（需自备梯子）
+以 GitBook 电子书的形式来展现本项目，阅读体验好，界面清爽又方便管理，[马上开启阅读吧！](https://feelschaotic.gitbook.io/android-knowledge-system/)
 
-![](https://i.loli.net/2020/01/08/P9rivjR5dAsDLJw.png)
+![](https://s2.ax1x.com/2020/01/09/lfQc24.md.png)
 
 > - 添加 gitbook-plugin-search-pro 插件支持中文搜索
 > - 添加 Splitter 插件支持 GitBook 侧边栏目录的宽度可以自由调节
