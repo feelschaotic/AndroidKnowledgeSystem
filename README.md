@@ -120,7 +120,7 @@
 
 ![](https://i.loli.net/2020/01/04/XTL5nBNpcfyQskt.jpg)
 
-![](https://i.loli.net/2020/01/04/xHaCWLkDirouMtn.jpg)
+![](https://s2.ax1x.com/2020/01/14/lq185F.jpg)
 
 # ©️ 转载
 
