@@ -9,6 +9,7 @@ Anxiety means nothing. The best way is to move on! right now!
 
 #### 1. Cross-platform
 
+
 Cross-platform development changes the way of mobile development，Blurred the line of web and client.      
 And let more and more people know the advantage of it. At present, there r three mainstream solutions：
 
