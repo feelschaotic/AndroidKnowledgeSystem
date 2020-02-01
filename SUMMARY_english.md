@@ -2,7 +2,7 @@
 
 ## 0、Trend
 
-- [Trend of mobile-app Develop](0. 方向/移动端开发的未来方向.md)
+- [Trend of Mobile-app Develop](0. 方向/移动端开发的未来方向.md)
 
 ## 1、Learning System Source Code
 
