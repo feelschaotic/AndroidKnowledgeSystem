@@ -2,7 +2,7 @@
 
 ## 0、Trend
 
-- [Trend of Mobile-app Develop](0. 方向/移动端开发的未来方向.md)
+- [Trend of Mobile-app Develop](0. Trend/Trend of Mobile-app Develop.md)
 
 ## 1、Learning System Source Code
 
@@ -32,38 +32,38 @@
     - Deeplink
     - [Accelerate Method](1. 系统源码/组件/WebView/加速方案.md)
   - RecyclerView
-    - 四级缓存+局部刷新
-    - 与ListView比较
-  - LinearLayout 和 RelativeLayout 相同层级下效率比较
+    - Level 4 Cache + Partial Refresh
+    - Comparision with ListView
+  - Comparision of LinearLayout & RelativeLayout's efficiency at the Same Layer
 - System Service
   - ActivityManagerService
   - Window&WindowManager
   - WindowManagerService
   - ServiceManager
-- 流程
-  - Android系统启动过程
-    - system_server启动过程
-  - Android Apk安装过程
-  - Android应用进程启动
+- procedure
+  - Starting Procedure in Android System
+    - Starting Procedure of system_server
+  - Android Apk Installation
+  - Android Application Process Launch
 - Communication
   - WIFI
   - NFC
   - Bluetooth
 
-## 二、架构能力
+## 2、Architecture
 
-- [设计模式](2. 架构能力/设计模式/设计模式.md)
-- 架构模式
+- [Design Patterns](2. 架构能力/设计模式/设计模式.md)
+- Architecture Pattern
   - MVP
   - MVVM
     - DataBinding
   - Flux
   - Clean Architecture
   - Android Architecture Components
-  - Android Jetpack架构
-- App框架
-  - 分包
-  - 分层
+  - Android Jetpack Architecture
+- App Framework
+  - Package Designing
+  - Layering
 
 ## 三、开源库
 
