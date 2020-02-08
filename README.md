@@ -129,6 +129,9 @@
         <td id='KamiyamaSatoru'><a href='https://github.com/KamiyamaSatoru'><img src='https://avatars2.githubusercontent.com/u/59816048?s=460&v=4' width="150px" height="150px"></a>
             <h4 align='center'><a href='https://blog.csdn.net/KamiyamaSatoru'>神山識 KamiyamaSatoru</a></h4>
         </td>
+        <td id='muboluo'><a href='https://github.com/muboluo'><img src='https://avatars3.githubusercontent.com/u/16324311?s=460&v=4' width="150px" height="150px"></a>
+            <h4 align='center'><a href='https://www.jianshu.com/u/2bbfed3d5132'>muboluo</a></h4>
+       </td>
     </tr>
 </table>
 
