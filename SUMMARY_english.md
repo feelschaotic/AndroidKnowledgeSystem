@@ -65,16 +65,16 @@
   - Package Designing
   - Layering
 
-## 三、开源库
+## 3. Open Source Library
 
-- [关于开源库一些想说的话](3. 开源库/关于开源库一些想说的话.md)
+- [How to thoroughly grasp Open Source Library](3. 开源库/关于开源库一些想说的话.md)
 - [ORM框架](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
   - GreenDao
   - Room
-- 事件总线
-  - EventBus
-    - 4种模式、粘性事件
-    - 观察者模式解耦
+- EventBus
+  - EventBus(Open Source Lib)
+    - 4 mode and sticky event
+    - Observer Pattern for decoupling
 - [网络](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
   - [Retrofit](3. 开源库/网络/Retrofit.md)
   - OKHttp
