@@ -76,7 +76,7 @@
     - 4 mode and sticky event
     - Observer Pattern for decoupling
 - [网络](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-  - [Retrofit](3. 开源库/网络/Retrofit.md)
+  - [Retrofit](3. 开源库/网络/Retrofit.md) 
   - OKHttp
     - 拦截器（责任链模式）
     - 超时重传&重定向
