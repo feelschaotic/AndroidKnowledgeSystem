@@ -67,39 +67,39 @@
 
 ## 3. Open Source Library
 
-- [How to thoroughly grasp Open Source Library](3. 开源库/关于开源库一些想说的话.md)
-- [ORM框架](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
+- [How to thoroughly grasp Open Source Library](3.OpenSourceLibrary/HowToThoroughlyGraspOpenSourceLibrary.md)
+- [ORM Frame](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
   - GreenDao
   - Room
 - EventBus
   - EventBus(Open Source Lib)
     - 4 mode and sticky event
     - Observer Pattern for decoupling
-- [网络](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-  - [Retrofit](3. 开源库/网络/Retrofit.md) 
+- [Network](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
+  - [Retrofit](3.OpenSourceLibrary/Network/Retrofit.md) 
   - OKHttp
-    - 拦截器（责任链模式）
-    - 超时重传&重定向
-    - Http缓存
-    - Socket连接池复用
+    - Interceptor（Chain Of Responsibility Model）
+    - Timeout Retransmission & Redirect
+    - Http Cache
+    - Reuse Of Socket Connection Pool
   - Volley
-- 图片
-  - [Glide](3. 开源库/图片/Glide.md)
-  - [Fresco](3. 开源库/图片/Fresco.md)
+- Image
+  - [Glide](3. Open Source Library/Image/Glide.md)
+  - [Fresco](3. Open Source Library/Image/Fresco.md)
   - Picasso
-- [依赖注入](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-  - [ButterKnife](3. 开源库/依赖注入/ButterKnife.md)
+- [Dependency Injection](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
+  - [ButterKnife](3.OpenSourceLibrary/DependencyInjection/ButterKnife.md)
   - Dagger2
-- 序列化
+- Serialization
   - Gson
   - FastJson
 - ARouter
-- 响应式编程
+- Responsive Program
   - RxJava
-    - 常用操作符
-    - 线程调度
-    - 异常处理
-    - Flowable背压
+    - Commonly used operator
+    - Thread Scheduling
+    - Exception Handling
+    - Flowable Back Pressure
   - RxBinding
   - RxAndroid
 
