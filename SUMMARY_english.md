@@ -103,28 +103,28 @@
   - RxBinding
   - RxAndroid
 
-## 四、测试
+## 4. Test
 
-- 单元测试
-  - robolectric
-- 自动化测试
-  - UI自动化
+- UnitTest
+  - Robolectric
+  - Automated Test
+  - UI Automation
   - Monkey
 
-## 五、常见机制
+## 5. Common Mechanism
 
-- 线程通信
-  - Handler原理
+- Thread Communication
+  - Handler Principle
   - AsyncTask
   - HandlerThread
   - IntentService
   - RxJava
-- [Binder机制](5. 常见机制/Binder机制.md)
-- 进程
+- [Binder Mechanism](5. CommonMechanism/BinderPrinciple.md)
+- Thread
   - lowmemorykiller 
-  - 进程的优先级
-- View体系
-  - 自定义控件
+  - Thread Priority
+- View System
+  - Custom Control
     - 事件分发机制
     - 自定义动画
     - Lottie动画解析库
