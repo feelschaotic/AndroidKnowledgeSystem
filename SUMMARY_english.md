@@ -125,14 +125,14 @@
   - Thread Priority
 - View System
   - Custom Control
-    - 事件分发机制
-    - 自定义动画
-    - Lottie动画解析库
-    - 绘制
-- Android消息机制
-- 本地存储
-  - Sqlite、SharedPreferences、文件
-- 资源管理系统、资源加载机制
+    - Event Distribution Mechanism
+    - Custom animation 
+    - Lottie Parsing Library
+    - Draw
+- Android Message Mechanism
+- Local Storage
+  - Sqlite, SharedPreferences and File
+- Resource Management System and Resource Loading Mechanism
 
 ## 六、基础能力
 
