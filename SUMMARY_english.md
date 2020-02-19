@@ -65,74 +65,74 @@
   - Package Designing
   - Layering
 
-## 三、开源库
+## 3. Open Source Library
 
-- [关于开源库一些想说的话](3. 开源库/关于开源库一些想说的话.md)
-- [ORM框架](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
+- [How to thoroughly grasp Open Source Library](3.OpenSourceLibrary/HowToThoroughlyGraspOpenSourceLibrary.md)
+- [ORM Frame](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
   - GreenDao
   - Room
-- 事件总线
-  - EventBus
-    - 4种模式、粘性事件
-    - 观察者模式解耦
-- [网络](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-  - [Retrofit](3. 开源库/网络/Retrofit.md)
+- EventBus
+  - EventBus(Open Source Lib)
+    - 4 mode and sticky event
+    - Observer Pattern for decoupling
+- [Network](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
+  - [Retrofit](3.OpenSourceLibrary/Network/Retrofit.md) 
   - OKHttp
-    - 拦截器（责任链模式）
-    - 超时重传&重定向
-    - Http缓存
-    - Socket连接池复用
+    - Interceptor（Chain Of Responsibility Model）
+    - Timeout Retransmission & Redirect
+    - Http Cache
+    - Reuse Of Socket Connection Pool
   - Volley
-- 图片
-  - [Glide](3. 开源库/图片/Glide.md)
-  - [Fresco](3. 开源库/图片/Fresco.md)
+- Image
+  - [Glide](3. Open Source Library/Image/Glide.md)
+  - [Fresco](3. Open Source Library/Image/Fresco.md)
   - Picasso
-- [依赖注入](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-  - [ButterKnife](3. 开源库/依赖注入/ButterKnife.md)
+- [Dependency Injection](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
+  - [ButterKnife](3.OpenSourceLibrary/DependencyInjection/ButterKnife.md)
   - Dagger2
-- 序列化
+- Serialization
   - Gson
   - FastJson
 - ARouter
-- 响应式编程
+- Responsive Program
   - RxJava
-    - 常用操作符
-    - 线程调度
-    - 异常处理
-    - Flowable背压
+    - Commonly used operator
+    - Thread Scheduling
+    - Exception Handling
+    - Flowable Back Pressure
   - RxBinding
   - RxAndroid
 
-## 四、测试
+## 4. Test
 
-- 单元测试
-  - robolectric
-- 自动化测试
-  - UI自动化
+- UnitTest
+  - Robolectric
+  - Automated Test
+  - UI Automation
   - Monkey
 
-## 五、常见机制
+## 5. Common Mechanism
 
-- 线程通信
-  - Handler原理
+- Thread Communication
+  - Handler Principle
   - AsyncTask
   - HandlerThread
   - IntentService
   - RxJava
-- [Binder机制](5. 常见机制/Binder机制.md)
-- 进程
+- [Binder Mechanism](5. CommonMechanism/BinderPrinciple.md)
+- Thread
   - lowmemorykiller 
-  - 进程的优先级
-- View体系
-  - 自定义控件
-    - 事件分发机制
-    - 自定义动画
-    - Lottie动画解析库
-    - 绘制
-- Android消息机制
-- 本地存储
-  - Sqlite、SharedPreferences、文件
-- 资源管理系统、资源加载机制
+  - Thread Priority
+- View System
+  - Custom Control
+    - Event Distribution Mechanism
+    - Custom animation 
+    - Lottie Parsing Library
+    - Draw
+- Android Message Mechanism
+- Local Storage
+  - Sqlite, SharedPreferences and File
+- Resource Management System and Resource Loading Mechanism
 
 ## 六、基础能力
 
