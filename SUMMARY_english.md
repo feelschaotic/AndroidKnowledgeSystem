@@ -84,8 +84,8 @@
     - Reuse Of Socket Connection Pool
   - Volley
 - Image
-  - [Glide](3. Open Source Library/Image/Glide.md)
-  - [Fresco](3. Open Source Library/Image/Fresco.md)
+  - [Glide](3.OpenSourceLibrary/Image/Glide.md)
+  - [Fresco](3.OpenSourceLibrary/Image/Fresco.md)
   - Picasso
 - [Dependency Injection](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
   - [ButterKnife](3.OpenSourceLibrary/DependencyInjection/ButterKnife.md)
@@ -119,7 +119,7 @@
   - HandlerThread
   - IntentService
   - RxJava
-- [Binder Mechanism](5. CommonMechanism/BinderPrinciple.md)
+- [Binder Mechanism](5.CommonMechanism/BinderPrinciple.md)
 - Thread
   - lowmemorykiller 
   - Thread Priority
@@ -134,33 +134,33 @@
   - Sqlite, SharedPreferences and File
 - Resource Management System and Resource Loading Mechanism
 
-## 六、基础能力
+## 6. Android Basic Skills
 
-- Java高级
-  - 反射
-  - 动态代理
-  - IO与NIO
-  - [多线程与并发编程](6. 基础能力/多线程与并发.md)
-  - 网络协议
-  - [集合](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-    - [集合这么多，我该怎么掌握？](6. 基础能力/集合/集合这么多，我该怎么掌握？.md)
-    - [HashMap](6. 基础能力/集合/HashMap.md)
-    - [LinkedHashMap](6. 基础能力/集合/LinkedHashMap.md)
+- Advanced Java
+  - Java Reflection
+  - Dynamic Proxy
+  - IO & NIO
+  - [Multithreading and Concurrency](6.AndroidBasicSkills/MultithreadingAndConcurrency.md)
+  - Network Protocol
+  - [Collection](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
+    - [How can I master so many collections?](6.AndroidBasicSkills/Collections/HowCanIMasterSoManyCollections.md)
+    - [HashMap](6.AndroidBasicSkills/Collections/HashMap.md)
+    - [LinkedHashMap](6.AndroidBasicSkills/Collections/LinkedHashMap.md)
     - HashTable
-    - CurrentHashMap
+    - ConcurrentHashMap
     - TreeMap
-    - [SparseArray](6. 基础能力/集合/SparseArray.md)
-- [数据结构和算法](6. 基础能力/数据结构与算法.md)
-- 操作系统
-- 计算机网络
-  - DNS HTTP/1.x HTTPs HTTP/2 TCP 等网络协议知识
+    - [SparseArray](6.AndroidBasicSkills/Collections/SparseArray.md)
+- [DataStructure & Algorithm](6.AndroidBasicSkills/DataStructureAndAlgorithm.md)
+- Operating System
+- ComputerNetwork
+  - Network protocol : DNS, HTTP/1.X, HTTPS, HTTP/2, TCP UDP 
   - SSL
-- [虚拟机](6. 基础能力/虚拟机.md)
+- [Java Virtual Machine](6.AndroidBasicSkills/JavaVirtualMachine.md)
   - JVM
   - ART & Dalvik
     - AOT compilation 
     - Bytecode & Dex
-  - 垃圾回收和GC
+  - GC Mechanism
 
 ## 七、进阶
 
