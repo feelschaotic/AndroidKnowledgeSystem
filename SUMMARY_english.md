@@ -162,43 +162,43 @@
     - Bytecode & Dex
   - GC Mechanism
 
-## 七、进阶
+## 7. Android Advanced
 
-- 资源管理
-  - 主题样式
-  - 多分辨率适配
+- Resource Management
+  - Theme Style
+  - Multi Resolution Support
   - AssertManager
   - Resource
-- 打包
+- Package
   - Gradle
-  - 编译
-  - 混淆
-  - 签名
-- [AOP](7. 进阶/AOP/AOP.md)
-- [动态化](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-  - [聊聊移动端的动态化之路](7. 进阶/动态化/聊聊移动端的动态化之路.md)
-  - [跨平台](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-    - [跨平台总述](7. 进阶/动态化/跨平台/跨平台总述.md)
+  - Compile
+  - Code Confusion
+  - App Signature
+- [AOP](7.AndroidAdvanced/AOP/AOP.md)
+- [Dynamic](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
+  - [Dynamic Development is the future](7.AndroidAdvanced/Dynamic/DynamicDevelopmentIsTheFuture.md)
+  - [Cross-platform](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
+    - [Summary](7.AndroidAdvanced/Dynamic/Cross-platform/Summary.md)
     - React Native
     - Fuchsia+Flutter+Dart
     - weex
-    - [JavaScript引擎](7. 进阶/动态化/跨平台/JavaScript引擎.md)
-    - 渲染引擎
-    - [布局引擎](7. 进阶/动态化/跨平台/布局引擎.md)
-  - 插件化
-    - class和dex学习
-    - ClassLoader原理
-      - 如何hook Activity启动流程
-      - 双亲委派
-    - 插件化原理
-    - 插件化框架
-  - [热修复](7. 进阶/动态化/热修复.md)
-- [大前端](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-  - Rect
+    - [JavaScript Engine](7.AndroidAdvanced/Dynamic/Cross-platform/JavaScriptEngine.md)
+    - Render Engine
+    - [Layout Engine](7.AndroidAdvanced/Dynamic/Cross-platform/LayoutEngine.md)
+  - Android Plugin
+    - class and dex
+    - ClassLoader
+      - Hook Activity Lifecycle
+      - Parent Delegation Model
+    - Plugin principle
+    - Plugin Framework
+  - [Hot-Fix](7.AndroidAdvanced/Dynamic/Hot-Fix.md)
+- [Cross-platform Language](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
+  - React
   - Vue
-  - 小程序
-- 组件化
-  - 页面路由
+  - Wechat Mimi-program
+- Componentization
+  - Router
 - 消息推送&保活
   - 长连接保活
     - 心跳包
