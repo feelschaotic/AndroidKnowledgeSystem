@@ -199,64 +199,64 @@
   - Wechat Mimi-program
 - Componentization
   - Router
-- 消息推送&保活
-  - 长连接保活
-    - 心跳包
-  - 进程保活
-- [JNI](7. 进阶/jni/JNI.md)
-- 安全
-  - root原理
-  - 二进制漏洞挖掘
-  - 经典的漏洞研究如cve20143153 cve20153636之类
-  - poc和exp
-  - 逆向
-    - arm汇编
-    - smali字节码
-    - dex和ELF结构
-    - 安卓和Linux调试体系和反调式体系
-    - 加固与反加固
+- Message Push & Keep-alive
+  - Long Link 4 Keep-alive
+    - Heartbeat packet
+  - Progress 4 Keep-alive
+- [JNI](7.AndroidAdvanced/Dynamic/jni/JNI.md)
+- Safety
+  - root principle
+  - Binary Loophole
+  - Classic Loophole(eg:cve20143153 cve20153636)
+  - poc & exp
+  - Android Reversing
+    - arm compilation
+    - smali bytecode
+    - DEX and ELF structure
+    - Android and Linux debug and anti-debug technique
+    - apk strengthen and anti-strengthen
     - Hook
-- 多媒体
-  - 图片
-    - 图片处理
-    - 动画
-    - 图片加载
-  - 音视频
-    - 音频编解码
-    - AudioTrack播放
-    - 视频解码
-    - OpenGL绘制
-    - 视频编辑转码
-    - 视频滤镜
-- 性能优化
-  - 启动时间和冷启动优化
-    - 避免启动白屏
-  - Crash 收集分析
-  - 卡顿检测和优化
+- Multimedia
+  - Image
+    - Image Handler
+    - Animation
+    - Image Loading
+  - Audio And Video
+    - Audio Encode&Decode
+    - AudioTrack Play
+    - Video Encode&Decode
+    - OpenGL Measure
+    - Video Editing and Transcoding
+    - Video Filter
+- Performance Optimization
+  - App start time and code start time 
+    - Prevent white screen at startup
+  - Crash collection and analysis
+  - Smooth detection and optimization
     - ARR
-    - 避免频繁GC
+    - Avoid frequently GC
     - ViewHolder
-  - 布局优化
-    - include、merge、ViewStub的使用
-  - 线程优化
-  - 监控
-    - 埋点
-    - APM性能检测
-    - WebView性能监控
-    - leakcanary内存泄露监控
-  - 内存优化
+  - Layout optimization
+    - include、merge、ViewStub
+  - Thread optimization
+  - Monitor
+    - User behavior tracking
+    - APM Performance
+    - WebView performance
+    - leakcanary
+  - Memory optimization
     - OOM
-    - 内存泄露
-    - 图片压缩
-    - 内存分析
-  - apk瘦身
-  - 电量优化
-  - 网络优化
-    - 网络调试
-    - 低网速优化
-    - API优化
-    - 流量优化
-- 持续集成
+    - Memory leak
+    - Image compression
+    - Memory Analysis
+  - Reduce app size
+  - Battery optimization
+  - Network optimization
+    - Network Debug
+    - Low Network solution
+    - API optimization
+    - Optimize network data usage
+- Continuous Integration 
   - Jenkins
 
 ## 八、其他
