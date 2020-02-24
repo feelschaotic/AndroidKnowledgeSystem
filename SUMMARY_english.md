@@ -67,7 +67,7 @@
 
 ## 3. Open Source Library
 
-- [How to thoroughly grasp Open Source Library](3.OpenSourceLibrary/HowToThoroughlyGraspOpenSourceLibrary.md)
+- [How to thoroughly grasp Open Source Library](3. OpenSourceLibrary/HowToThoroughlyGraspOpenSourceLibrary.md)
 - [ORM Frame](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
   - GreenDao
   - Room
@@ -76,7 +76,7 @@
     - 4 mode and sticky event
     - Observer Pattern for decoupling
 - [Network](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-  - [Retrofit](3.OpenSourceLibrary/Network/Retrofit.md) 
+  - [Retrofit](3. OpenSourceLibrary/Network/Retrofit.md) 
   - OKHttp
     - Interceptor（Chain Of Responsibility Model）
     - Timeout Retransmission & Redirect
@@ -84,11 +84,11 @@
     - Reuse Of Socket Connection Pool
   - Volley
 - Image
-  - [Glide](3.OpenSourceLibrary/Image/Glide.md)
-  - [Fresco](3.OpenSourceLibrary/Image/Fresco.md)
+  - [Glide](3. OpenSourceLibrary/Image/Glide.md)
+  - [Fresco](3. OpenSourceLibrary/Image/Fresco.md)
   - Picasso
 - [Dependency Injection](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-  - [ButterKnife](3.OpenSourceLibrary/DependencyInjection/ButterKnife.md)
+  - [ButterKnife](3. OpenSourceLibrary/DependencyInjection/ButterKnife.md)
   - Dagger2
 - Serialization
   - Gson
@@ -119,7 +119,7 @@
   - HandlerThread
   - IntentService
   - RxJava
-- [Binder Mechanism](5.CommonMechanism/BinderPrinciple.md)
+- [Binder Mechanism](5. CommonMechanism/BinderPrinciple.md)
 - Thread
   - lowmemorykiller 
   - Thread Priority
@@ -140,22 +140,22 @@
   - Java Reflection
   - Dynamic Proxy
   - IO & NIO
-  - [Multithreading and Concurrency](6.AndroidBasicSkills/MultithreadingAndConcurrency.md)
+  - [Multithreading and Concurrency](6. AndroidBasicSkills/MultithreadingAndConcurrency.md)
   - Network Protocol
   - [Collection](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-    - [How can I master so many collections?](6.AndroidBasicSkills/Collections/HowCanIMasterSoManyCollections.md)
-    - [HashMap](6.AndroidBasicSkills/Collections/HashMap.md)
-    - [LinkedHashMap](6.AndroidBasicSkills/Collections/LinkedHashMap.md)
+    - [How can I master so many collections?](6. AndroidBasicSkills/Collections/HowCanIMasterSoManyCollections.md)
+    - [HashMap](6. AndroidBasicSkills/Collections/HashMap.md)
+    - [LinkedHashMap](6. AndroidBasicSkills/Collections/LinkedHashMap.md)
     - HashTable
     - ConcurrentHashMap
     - TreeMap
-    - [SparseArray](6.AndroidBasicSkills/Collections/SparseArray.md)
-- [DataStructure & Algorithm](6.AndroidBasicSkills/DataStructureAndAlgorithm.md)
+    - [SparseArray](6. AndroidBasicSkills/Collections/SparseArray.md)
+- [DataStructure & Algorithm](6. AndroidBasicSkills/DataStructureAndAlgorithm.md)
 - Operating System
 - ComputerNetwork
   - Network protocol : DNS, HTTP/1.X, HTTPS, HTTP/2, TCP UDP 
   - SSL
-- [Java Virtual Machine](6.AndroidBasicSkills/JavaVirtualMachine.md)
+- [Java Virtual Machine](6. AndroidBasicSkills/JavaVirtualMachine.md)
   - JVM
   - ART & Dalvik
     - AOT compilation 
@@ -174,17 +174,17 @@
   - Compile
   - Code Confusion
   - App Signature
-- [AOP](7.AndroidAdvanced/AOP/AOP.md)
+- [AOP](7. AndroidAdvanced/AOP/AOP.md)
 - [Dynamic](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-  - [Dynamic Development is the future](7.AndroidAdvanced/Dynamic/DynamicDevelopmentIsTheFuture.md)
+  - [The development of dynamic technology](7. AndroidAdvanced/Dynamic/DynamicDevelopmentIsTheFuture.md)
   - [Cross-platform](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-    - [Summary](7.AndroidAdvanced/Dynamic/Cross-platform/Summary.md)
+    - [Summary](7. AndroidAdvanced/Dynamic/Cross-platform/Summary.md)
     - React Native
     - Fuchsia+Flutter+Dart
     - weex
-    - [JavaScript Engine](7.AndroidAdvanced/Dynamic/Cross-platform/JavaScriptEngine.md)
+    - [JavaScript Engine](7. AndroidAdvanced/Dynamic/Cross-platform/JavaScriptEngine.md)
     - Render Engine
-    - [Layout Engine](7.AndroidAdvanced/Dynamic/Cross-platform/LayoutEngine.md)
+    - [Layout Engine](7. AndroidAdvanced/Dynamic/Cross-platform/LayoutEngine.md)
   - Android Plugin
     - class and dex
     - ClassLoader
@@ -192,7 +192,7 @@
       - Parent Delegation Model
     - Plugin principle
     - Plugin Framework
-  - [Hot-Fix](7.AndroidAdvanced/Dynamic/Hot-Fix.md)
+  - [Hot-Fix](7. AndroidAdvanced/Dynamic/Hot-Fix.md)
 - [Cross-platform Language](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
   - React
   - Vue
@@ -203,7 +203,7 @@
   - Long Link 4 Keep-alive
     - Heartbeat packet
   - Progress 4 Keep-alive
-- [JNI](7.AndroidAdvanced/Dynamic/jni/JNI.md)
+- [JNI](7. AndroidAdvanced/Dynamic/jni/JNI.md)
 - Safety
   - root principle
   - Binary Loophole
@@ -259,16 +259,16 @@
 - Continuous Integration 
   - Jenkins
 
-## 八、其他
+## 8. Others
 
 - Python
 - Linux
-  - kernel源码
+  - kernel source code
   - SELinux
-  - [MMAP内存映射技术](8. 其他/Linux/MMAP内存映射技术.md)
+  - [Memory Map](8. Others/Linux/MemoryMap.md)
 - Docker
 
-## 九、Android 书籍
+## 9. Android Books
 
 - 入门
   - 第一行代码
@@ -294,21 +294,21 @@
   - Android内核剖析
   - 深入理解Android内核设计思想
 
-## 十、T型成长
+## 10. Balance of Breadth and Depth
 
-- [团队管理](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-  - 敏捷
+- [Team Management](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
+  - Agile Development
   - Devops
   - CodeReview
-  - [代码质量与代码规范](10. T型成长/团队管理/代码质量与代码规范.md)
-- 自我管理
-- 后端
-  - 领域驱动设计
-  - 微服务
+  - [Code Quality and Specification](10. BalanceOfBreadthAndDepth/TeamMangement/CodeQualityAndSpecification.md)
+- Self-management
+- Back-End
+  - DDD
+  - Microservice
 
-## 十一、语言
+## 11. Language
 
-- [Kotlin](11. 语言/Kotlin.md)
-- [Kotlin 协程](11. 语言/Kotlin协程.md)
+- [Kotlin](11. Language/Kotlin.md)
+- [Kotlin Coroutine](11. Language/KotlinCoroutine.md)
 - C、C++（NDK）
 - SQL（DB）
