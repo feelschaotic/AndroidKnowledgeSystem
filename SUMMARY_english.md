@@ -67,7 +67,7 @@
 
 ## 3. Open Source Library
 
-- [How to thoroughly grasp Open Source Library](3.OpenSourceLibrary/HowToThoroughlyGraspOpenSourceLibrary.md)
+- [How to thoroughly grasp Open Source Library](3. OpenSourceLibrary/HowToThoroughlyGraspOpenSourceLibrary.md)
 - [ORM Frame](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
   - GreenDao
   - Room
@@ -76,7 +76,7 @@
     - 4 mode and sticky event
     - Observer Pattern for decoupling
 - [Network](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-  - [Retrofit](3.OpenSourceLibrary/Network/Retrofit.md) 
+  - [Retrofit](3. OpenSourceLibrary/Network/Retrofit.md) 
   - OKHttp
     - Interceptor（Chain Of Responsibility Model）
     - Timeout Retransmission & Redirect
@@ -84,11 +84,11 @@
     - Reuse Of Socket Connection Pool
   - Volley
 - Image
-  - [Glide](3. Open Source Library/Image/Glide.md)
-  - [Fresco](3. Open Source Library/Image/Fresco.md)
+  - [Glide](3. OpenSourceLibrary/Image/Glide.md)
+  - [Fresco](3. OpenSourceLibrary/Image/Fresco.md)
   - Picasso
 - [Dependency Injection](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-  - [ButterKnife](3.OpenSourceLibrary/DependencyInjection/ButterKnife.md)
+  - [ButterKnife](3. OpenSourceLibrary/DependencyInjection/ButterKnife.md)
   - Dagger2
 - Serialization
   - Gson
@@ -134,141 +134,141 @@
   - Sqlite, SharedPreferences and File
 - Resource Management System and Resource Loading Mechanism
 
-## 六、基础能力
+## 6. Android Basic Skills
 
-- Java高级
-  - 反射
-  - 动态代理
-  - IO与NIO
-  - [多线程与并发编程](6. 基础能力/多线程与并发.md)
-  - 网络协议
-  - [集合](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-    - [集合这么多，我该怎么掌握？](6. 基础能力/集合/集合这么多，我该怎么掌握？.md)
-    - [HashMap](6. 基础能力/集合/HashMap.md)
-    - [LinkedHashMap](6. 基础能力/集合/LinkedHashMap.md)
+- Advanced Java
+  - Java Reflection
+  - Dynamic Proxy
+  - IO & NIO
+  - [Multithreading and Concurrency](6. AndroidBasicSkills/MultithreadingAndConcurrency.md)
+  - Network Protocol
+  - [Collection](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
+    - [How can I master so many collections?](6. AndroidBasicSkills/Collections/HowCanIMasterSoManyCollections.md)
+    - [HashMap](6. AndroidBasicSkills/Collections/HashMap.md)
+    - [LinkedHashMap](6. AndroidBasicSkills/Collections/LinkedHashMap.md)
     - HashTable
-    - CurrentHashMap
+    - ConcurrentHashMap
     - TreeMap
-    - [SparseArray](6. 基础能力/集合/SparseArray.md)
-- [数据结构和算法](6. 基础能力/数据结构与算法.md)
-- 操作系统
-- 计算机网络
-  - DNS HTTP/1.x HTTPs HTTP/2 TCP 等网络协议知识
+    - [SparseArray](6. AndroidBasicSkills/Collections/SparseArray.md)
+- [DataStructure & Algorithm](6. AndroidBasicSkills/DataStructureAndAlgorithm.md)
+- Operating System
+- ComputerNetwork
+  - Network protocol : DNS, HTTP/1.X, HTTPS, HTTP/2, TCP UDP 
   - SSL
-- [虚拟机](6. 基础能力/虚拟机.md)
+- [Java Virtual Machine](6. AndroidBasicSkills/JavaVirtualMachine.md)
   - JVM
   - ART & Dalvik
     - AOT compilation 
     - Bytecode & Dex
-  - 垃圾回收和GC
+  - GC Mechanism
 
-## 七、进阶
+## 7. Android Advanced
 
-- 资源管理
-  - 主题样式
-  - 多分辨率适配
+- Resource Management
+  - Theme Style
+  - Multi Resolution Support
   - AssertManager
   - Resource
-- 打包
+- Package
   - Gradle
-  - 编译
-  - 混淆
-  - 签名
-- [AOP](7. 进阶/AOP/AOP.md)
-- [动态化](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-  - [聊聊移动端的动态化之路](7. 进阶/动态化/聊聊移动端的动态化之路.md)
-  - [跨平台](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-    - [跨平台总述](7. 进阶/动态化/跨平台/跨平台总述.md)
+  - Compile
+  - Code Confusion
+  - App Signature
+- [AOP](7. AndroidAdvanced/AOP/AOP.md)
+- [Dynamic](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
+  - [The development of dynamic technology](7. AndroidAdvanced/Dynamic/DynamicDevelopmentIsTheFuture.md)
+  - [Cross-platform](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
+    - [Summary](7. AndroidAdvanced/Dynamic/Cross-platform/Summary.md)
     - React Native
     - Fuchsia+Flutter+Dart
     - weex
-    - [JavaScript引擎](7. 进阶/动态化/跨平台/JavaScript引擎.md)
-    - 渲染引擎
-    - [布局引擎](7. 进阶/动态化/跨平台/布局引擎.md)
-  - 插件化
-    - class和dex学习
-    - ClassLoader原理
-      - 如何hook Activity启动流程
-      - 双亲委派
-    - 插件化原理
-    - 插件化框架
-  - [热修复](7. 进阶/动态化/热修复.md)
-- [大前端](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-  - Rect
+    - [JavaScript Engine](7. AndroidAdvanced/Dynamic/Cross-platform/JavaScriptEngine.md)
+    - Render Engine
+    - [Layout Engine](7. AndroidAdvanced/Dynamic/Cross-platform/LayoutEngine.md)
+  - Android Plugin
+    - class and dex
+    - ClassLoader
+      - Hook Activity Lifecycle
+      - Parent Delegation Model
+    - Plugin principle
+    - Plugin Framework
+  - [Hot-Fix](7. AndroidAdvanced/Dynamic/Hot-Fix.md)
+- [Cross-platform Language](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
+  - React
   - Vue
-  - 小程序
-- 组件化
-  - 页面路由
-- 消息推送&保活
-  - 长连接保活
-    - 心跳包
-  - 进程保活
-- [JNI](7. 进阶/jni/JNI.md)
-- 安全
-  - root原理
-  - 二进制漏洞挖掘
-  - 经典的漏洞研究如cve20143153 cve20153636之类
-  - poc和exp
-  - 逆向
-    - arm汇编
-    - smali字节码
-    - dex和ELF结构
-    - 安卓和Linux调试体系和反调式体系
-    - 加固与反加固
+  - Wechat Mimi-program
+- Componentization
+  - Router
+- Message Push & Keep-alive
+  - Long Link 4 Keep-alive
+    - Heartbeat packet
+  - Progress 4 Keep-alive
+- [JNI](7. AndroidAdvanced/Dynamic/jni/JNI.md)
+- Safety
+  - root principle
+  - Binary Loophole
+  - Classic Loophole(eg:cve20143153 cve20153636)
+  - poc & exp
+  - Android Reversing
+    - arm compilation
+    - smali bytecode
+    - DEX and ELF structure
+    - Android and Linux debug and anti-debug technique
+    - apk strengthen and anti-strengthen
     - Hook
-- 多媒体
-  - 图片
-    - 图片处理
-    - 动画
-    - 图片加载
-  - 音视频
-    - 音频编解码
-    - AudioTrack播放
-    - 视频解码
-    - OpenGL绘制
-    - 视频编辑转码
-    - 视频滤镜
-- 性能优化
-  - 启动时间和冷启动优化
-    - 避免启动白屏
-  - Crash 收集分析
-  - 卡顿检测和优化
+- Multimedia
+  - Image
+    - Image Handler
+    - Animation
+    - Image Loading
+  - Audio And Video
+    - Audio Encode&Decode
+    - AudioTrack Play
+    - Video Encode&Decode
+    - OpenGL Measure
+    - Video Editing and Transcoding
+    - Video Filter
+- Performance Optimization
+  - App start time and code start time 
+    - Prevent white screen at startup
+  - Crash collection and analysis
+  - Smooth detection and optimization
     - ARR
-    - 避免频繁GC
+    - Avoid frequently GC
     - ViewHolder
-  - 布局优化
-    - include、merge、ViewStub的使用
-  - 线程优化
-  - 监控
-    - 埋点
-    - APM性能检测
-    - WebView性能监控
-    - leakcanary内存泄露监控
-  - 内存优化
+  - Layout optimization
+    - include、merge、ViewStub
+  - Thread optimization
+  - Monitor
+    - User behavior tracking
+    - APM Performance
+    - WebView performance
+    - leakcanary
+  - Memory optimization
     - OOM
-    - 内存泄露
-    - 图片压缩
-    - 内存分析
-  - apk瘦身
-  - 电量优化
-  - 网络优化
-    - 网络调试
-    - 低网速优化
-    - API优化
-    - 流量优化
-- 持续集成
+    - Memory leak
+    - Image compression
+    - Memory Analysis
+  - Reduce app size
+  - Battery optimization
+  - Network optimization
+    - Network Debug
+    - Low Network solution
+    - API optimization
+    - Optimize network data usage
+- Continuous Integration 
   - Jenkins
 
-## 八、其他
+## 8. Others
 
 - Python
 - Linux
-  - kernel源码
+  - kernel source code
   - SELinux
-  - [MMAP内存映射技术](8. 其他/Linux/MMAP内存映射技术.md)
+  - [Memory Map](8. Others/Linux/MemoryMap.md)
 - Docker
 
-## 九、Android 书籍
+## 9. Android Books
 
 - 入门
   - 第一行代码
@@ -294,21 +294,21 @@
   - Android内核剖析
   - 深入理解Android内核设计思想
 
-## 十、T型成长
+## 10. Balance of Breadth and Depth
 
-- [团队管理](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
-  - 敏捷
+- [Team Management](https://github.com/KamiyamaSatoru/AndroidKnowledgeSystem/blob/master)
+  - Agile Development
   - Devops
   - CodeReview
-  - [代码质量与代码规范](10. T型成长/团队管理/代码质量与代码规范.md)
-- 自我管理
-- 后端
-  - 领域驱动设计
-  - 微服务
+  - [Code Quality and Specification](10. BalanceOfBreadthAndDepth/TeamMangement/CodeQualityAndSpecification.md)
+- Self-management
+- Back-End
+  - DDD
+  - Microservice
 
-## 十一、语言
+## 11. Language
 
-- [Kotlin](11. 语言/Kotlin.md)
-- [Kotlin 协程](11. 语言/Kotlin协程.md)
+- [Kotlin](11. Language/Kotlin.md)
+- [Kotlin Coroutine](11. Language/KotlinCoroutine.md)
 - C、C++（NDK）
 - SQL（DB）
