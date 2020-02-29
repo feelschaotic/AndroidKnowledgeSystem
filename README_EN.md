@@ -59,11 +59,11 @@ Of course, due to personal level, please correct any mistakes. For a problem, yo
 
 # The most complete Android advanced knowledge map
 
-![](https://i.loli.net/2020/01/08/AheRqs2ZaWGYyIx.png)
+![](https://s2.ax1x.com/2020/02/29/3yijJK.png)
 
-> [Want to get another format? Please stamp.](https://github.com/feelschaotic/AndroidKnowledgeSystem/tree/master/Android知识体系图谱)
+> [Want to get another format? Please stamp.](https://github.com/feelschaotic/AndroidKnowledgeSystem/tree/master/AndroidAdvancedKnowledgeMap)
 
-**The brain map may not be updated in time. Please refer to the directory file 'summary_en.md'**
+**The brain map may not be updated in time. Please refer to the directory file 'SUMMARY_EN.md'**
 
 # GitBook
 
@@ -94,8 +94,6 @@ You are free to choose the knowledge points that you are good at or interested i
 ## Updated Programme
 
 [See Kanban for update programme](https://github.com/feelschaotic/AndroidKnowledgeSystem/projects/1)
-
-大家可以留言，说下希望看到哪些知识点，优先更新。更新情况见`SUMMARY.md`，有`md`链接的即为更新完成。
 
 ## Contact Us
 
