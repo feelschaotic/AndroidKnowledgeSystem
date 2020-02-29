@@ -7,6 +7,10 @@
 <a href="https://juejin.im/user/58130890bf22ec0068821df3"><img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-@FeelsChaotic-00cccc.svg?style=flat&colorA=1970fe"></a>
 </p>
 
+<p align='left'>
+  <strong>For English version,<a href="https://github.com/feelschaotic/AndroidKnowledgeSystem/blob/master/README_EN.md"> please click here.</a></strong>
+</p>
+
 # TheMostCompleteAndroidKnowledgeSystemAndRealStuff
 
 你想要的最全 Android 进阶路线知识图谱 + 干货资料收集，一条龙解决「查漏 -> 搜索资料 -> 专项学习 -> fix 短板」的闭环
