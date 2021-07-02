@@ -238,9 +238,9 @@
 
 * Android消息机制
 
-* 本地存储
+* [存储大家庭](5. 常见机制/存储大家庭.md)
 
-	* Sqlite、SharedPreferences、文件
+	* [Sqlite、SharedPreferences、MMKV、文件](5. 常见机制/存储大家庭.md)
 
 * 资源管理系统、资源加载机制
 
