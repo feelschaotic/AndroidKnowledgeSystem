@@ -263,8 +263,8 @@
 		* [HashMap](6. 基础能力/集合/HashMap.md)    
 		* [LinkedHashMap](6. 基础能力/集合/LinkedHashMap.md)    
 		* HashTable  
-		* CurrentHashMap  
-		* TreeMap  
+		* [ConcurrentHashMap](6. 基础能力/集合/ConcurrentHashMap.md)  
+		* [TreeMap](6. 基础能力/集合/TreeMap.md)  
 		* [SparseArray](6. 基础能力/集合/SparseArray.md)  
 	
 * [数据结构和算法](6. 基础能力/数据结构与算法.md)
