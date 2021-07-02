@@ -28,3 +28,7 @@
 
 - [Android 动态链接库加载原理及 HotFix 方案介绍](https://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653577702&idx=1&sn=1288c77cd8fc2db68dc92cf18d675ace&scene=4#wechat_redirect)
 > 好文！从UnsatisfiedLinkError异常说起，层层解析so加载流程，遗憾的是源码截图没有划重点，看起来比较吃力。
+
+### 扩展
+- [【我的Android进阶之旅】Android 关于arm64-v8a、armeabi-v7a、armeabi、x86下的so文件兼容问题](https://blog.csdn.net/ouyang_peng/article/details/51168072)
+> 我们往往很容易对.so文件应该放在或者生成到哪里感到困惑，本文介绍了兼容处理的一些注意事项，顺带说一句，以减少APK包大小为借口移除其他ABIs是一个偏激的做法，这会影响到函数库的性能和兼容性，我们可以选择在应用市场上传指定ABI版本的APK。
