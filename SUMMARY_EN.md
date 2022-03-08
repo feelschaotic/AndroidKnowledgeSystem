@@ -125,7 +125,7 @@
   - Thread Priority
 - View System
   - Custom Control
-    - Event Distribution Mechanism
+    - [Touch Event Delivery Mechanism](5.CommonMechanism/TouchEventDeliveryMechanism.md)
     - Custom animation 
     - Lottie Parsing Library
     - Draw
